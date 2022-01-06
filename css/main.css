@@ -2763,7 +2763,7 @@ li.sub-menu--item.nav-item-has-children i {
   line-height: 60px;
   padding-left: 22px;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 .contact-form-l1 .nice-select .list {
@@ -26308,5 +26308,49 @@ button {
 }
 button:hover {
   background-color: #dae1f5;
+}
+.bg-mirage4{
+  background-color: #38063C;
+  background-image: url("../image/figg-pattern-2.png");
+  background-repeat: repeat;
+  height: 400px;
+}
+.cnts{
+  background-color: #FFF;
+  width: 100%;
+  padding: 30px;
+  border-radius: 20px;
+  height: 100%;
+}
+.cnts label{
+  color: #000 !important;
+  font-weight: 600;
+  color: #38063C !important;
+}
+.sub2{
+  max-width: 200px;
+    box-shadow: 0 16px 36px rgb(241 139 98 / 30%);
+    border-radius: 50px;
+    background-color: #FF7C24;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+.cnts input{
+  background: #F9F9F9 !important;
+  border-radius: 15px !important;
+}
+.cnts textarea{
+  background: #F9F9F9 !important;
+  border-radius: 15px !important;
+  height: 180px !important;
+  padding: 15px;
+}
+.nav-item a.active{
+  color: #FF7C24;
 }
 /*# sourceMappingURL=maps/main.css.map */
