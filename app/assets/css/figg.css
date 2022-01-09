@@ -29996,6 +29996,7 @@ input.datetimepicker[data-color='yellow'] + .bootstrap-datetimepicker-widget.dro
 }
 .card video{
     border-radius: 15px;
+    width: 100%;
 }
 .brd-btm {
     width: 100%;
@@ -30087,7 +30088,7 @@ a {
 .card1 span.h2, .card2 span.h2{
     font-size: 30px !important;
 }
-.cusBadge2{
+.cusBadge4{
     background: #FFFFFF !important;
     border-radius: 30px !important;
     padding-left: 15px;
@@ -30104,4 +30105,16 @@ a {
     color: #FF7C24 !important;
     text-transform: none;
     padding: 10px 15px;
+}
+/* Search bar on mobile*/
+.navbar-search{
+    display: none !important;
+}
+.nav-link i.ni {
+    position: relative;
+    top: 2px;
+    display: none !important;
+}
+img{
+    max-width: 100%;
 }
