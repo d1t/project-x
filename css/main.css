@@ -26408,6 +26408,8 @@ button:hover {
 }
 .steps{
   padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 10px;
 }
 .xbg h3{
   color: #FFF;
