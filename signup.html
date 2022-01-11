@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Figg</title>
+  <link rel="shortcut icon" href="./image/figg-favicon.png" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./fonts/icon-font/css/style.css">
+  <link rel="stylesheet" href="./fonts/typography-font/typo.css">
+  <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.css">
+  <!--<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>-->
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet" href="./plugins/aos/aos.min.css">
+  <link rel="stylesheet" href="./plugins/slick/slick.min.css">
+  <link rel="stylesheet" href="./plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="./plugins/nice-select/nice-select.min.css">
+  <!-- Vendor stylesheets  -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Custom stylesheet -->
+</head>
+
+<body data-theme-mode-panel-active data-theme="light" style="font-family: ;">
+  <div class="site-wrapper overflow-hidden position-relative h-100">
+    <div class="ald"> 
+      <p> Already have an account?<a href="#"> <strong>  Log in </strong> </a> </p>
+    </div>
+    <div class="sign-in-3 pUp h-100">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7 col-md-8 position-static d-none d-lg-block">
+            <div class="inner-page-left-bg h-100">
+              <img src="image/bgy.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-8">
+            <div class="sign-in-3-box h-100 position-relative  justify-content-lg-end">
+              
+              <div class="heading">
+                <h2> Create your account </h2>
+                <!--<p>Enter your account details below</p>-->
+              </div>
+              <form action="#">
+                <div class="form-group">
+                  <input type="email" name="fname" id="fname" class="form-control" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="lname" id="lname" class="form-control" placeholder="Lastname">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Email Address">
+                  </div>
+                <div class="form-group">
+                  <input type="password" name="password" id="password" class="form-control" placeholder="Password ">
+                </div>
+                <div class="keep-sign-area row">
+                  <div class="col-lg-6 check-form d-inline-block">
+                    <label for="terms-check" class="check-input-control d-flex align-items-center mb-0">
+                      <input class="d-none" type="checkbox" id="terms-check">
+                      <span class="checkbox checkbox-2 rounded-check-box "></span>
+                      <span class="remember-text">Remember me</span>
+                    </label>
+                  </div>
+                  <div class="col-lg-6 text-right">
+                    <span class="remember-text"><a href="#"> Forgot your password? </a> </span>
+                  </div>
+                </div>
+                <div class="sign-in-log-btn">
+                  <button class="btn focus-reset">Create account</button>
+                </div>
+                <div class="create-new-acc-text">
+                  <img src="image/signupwith.png" width="100%">
+                </div> <br><br>
+                <div class="create-new-acc-text text-center row">
+                <div class="col-4"><a href="#"> <img src="image/Continue-with-google.svg" width="100%">  </a>  </div> 
+                <div class="col-4"><a href="#"> <img src="image/Continue-with-facebook.svg" width="100%">  </a></div>
+                  <div class="col-4"><a href="#"> <img src="image/Continue-with-linkedin.svg" width="100%">  </a></div>
+
+                  <div class="col-lg-12 text-center"> <br>
+                      By signing up, you agree to our <a href="">  Terms of Service </a> & <a href=""> Privacy Policy</a>.
+                  </div>
+                </div>
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Vendor Scripts -->
+  <script src="./plugins/jquery/jquery.min.js"></script>
+  <script src="js/vendor.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <!-- Plugin's Scripts -->
+  <script src="./plugins/aos/aos.min.js"></script>
+  <script src="./plugins/slick/slick.min.js"></script>
+  <script src="./plugins/menu/menu.js"></script>
+  <script src="./plugins/nice-select/nice-select.min.js"></script>
+  <!-- Activation Script -->
+  <script src="js/custom.js"></script>
+ <script>
+     const accordionItemHeaders = document.querySelectorAll(
+  ".accordion-item-header"
+);
+
+accordionItemHeaders.forEach((accordionItemHeader) => {
+  accordionItemHeader.addEventListener("click", (event) => {
+    // Allow to collapse one item at a time
+    const currentlyActiveAccordionItemHeader = document.querySelector(
+      ".accordion-item-header.active"
+    );
+    if (
+      currentlyActiveAccordionItemHeader &&
+      currentlyActiveAccordionItemHeader !== accordionItemHeader
+    ) {
+      currentlyActiveAccordionItemHeader.classList.toggle("active");
+      currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
+    }
+    //
+
+    accordionItemHeader.classList.toggle("active");
+    const accordionItemBody = accordionItemHeader.nextElementSibling;
+    if (accordionItemHeader.classList.contains("active")) {
+      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+    } else {
+      accordionItemBody.style.maxHeight = 0;
+    }
+  });
+  accordionItemHeader.addEventListener("click", function () {
+    document.getElementById("test").scrollIntoView({ behavior: "smooth" });
+  });
+});
+ </script>
+</body>
+
+</html>
