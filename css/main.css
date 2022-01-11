@@ -26396,6 +26396,10 @@ button:hover {
   font-weight: 600;
   color: #FFF;
 }
+.inX strong{
+  color: #FF7C24;
+  font-weight: 600;
+}
 .padtps{
   padding-top: 100px !important;
   padding-bottom: 100px;
