@@ -18193,7 +18193,7 @@ a.text-darker:focus
 
     color: #fff;
     border-radius: .375rem;
-    background-color: #adb5bd;
+    background-color: #ff7b24;
 
     align-items: center;
     justify-content: center;
@@ -20097,7 +20097,7 @@ a.btn-icon-only
     font-size: .875rem;
     font-weight: 600; 
 
-    color: #525f7f;
+    color: #38053d;
 }
 
 .form-control
@@ -23832,7 +23832,7 @@ textarea[resize='horizontal']
 {
     font-size: .8125rem;
 
-    white-space: nowrap;
+    /*white-space: nowrap;*/
 }
 
 .table.align-items-center td,
@@ -23986,13 +23986,12 @@ h6 > a
 
 .heading-small
 {
-    font-size: .75rem;
-
-    padding-top: .25rem;
-    padding-bottom: .25rem;
-
-    letter-spacing: .04em; 
+    font-size: 20px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    letter-spacing: .04em;
     text-transform: uppercase;
+    color: #ff7b24 !important;
 }
 
 .heading-title
@@ -30118,3 +30117,44 @@ a {
 img{
     max-width: 100%;
 }
+.mx-auto{
+    margin: auto;
+    display: block;
+    max-width: 250px !important;
+}
+.tst strong{
+    color: #FF7C24;
+}
+.tst .table td, .tst .table th{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+tr.hide-table-padding td {
+    padding: 0;
+  }
+  
+  .expand-button {
+      position: relative;
+  }
+  
+  .accordion-toggle .expand-button:after
+  {
+    position: absolute;
+    left:.75rem;
+    top: 50%;
+    transform: translate(0, -50%);
+    content: '-';
+    content: url(../img/arrow-down.svg);
+  }
+  .accordion-toggle.collapsed .expand-button:after
+  {
+    content: '+';
+    content: url(../img/arrow-up.svg);
+  }
+  .innertab{
+      width: 100%;
+  }
+  a:hover{
+      color: #FF7C24;
+  }
+  

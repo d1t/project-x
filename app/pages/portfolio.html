@@ -422,7 +422,7 @@
                                 </td>
                               </tr>
 
-                              <tr>
+                              <tr  class="accordion-toggle collapsed" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
                                 <th scope="row">
                                   <div class="media align-items-center">
                                     <a href="#" class="avatar rounded-circle mr-3">
@@ -462,24 +462,75 @@
                                     <span class="badge rounded-pill bg-light tbadge text-dark">Processing</span>
                                  </td>
                                
-                                <td class="text-right">
-                                  <div class="dropdown">
-                                    <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      <i class="fas fa-ellipsis-v"></i>
-                                    </a>
-                                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow" style="">
-                                      <a class="dropdown-item" href="#">Action</a>
-                                      <a class="dropdown-item" href="#">Another action</a>
-                                      <a class="dropdown-item" href="#">Something else here</a>
-                                    </div>
-                                  </div>
-                                </td>
+                                 <td class="expand-button text-right"></td>
                               </tr>
+                              <tr class="hide-table-padding">
+                                <td colspan="10"> 
+                                <div id="collapseOne" class="collapse in p-3">
+                                  <ul class="nav nav-tabs nav-fill" role="tablist">
+                                    <li class="nav-item">
+                                      <a class="nav-link active" data-toggle="tab" href="#transactions" role="tab" aria-controls="transactions" aria-selected="true">Transactions</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" data-toggle="tab" href="#updates" role="tab" aria-controls="updates" aria-selected="false">Updates & Discussions</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="false">Documents</a>
+                                    </li>
+                                  </ul>
+                                  
+                                  <div class="tab-content mt-3">
+                                    <div class="tab-pane active" id="transactions" role="tabpanel" aria-labelledby="transactions-tab">
+                                      <div class="table-responsive">
+                                        <!-- Projects table -->
+                                        <table class="table align-items-center table-flush">
+                                          <thead class="thead-light">
+                                            <tr>
+                                              <th scope="col">Date Invested</th>
+                                              <th scope="col">Amount Invested</th>
+                                              <th scope="col">Payment Status</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <td>
+                                                June 13th, 2021 05:55
+                                              </td>
+                                              <td>
+                                                $200.00
+                                              </td>
+                                              <td>
+                                                Processing
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">
+                                                <strong>Total </strong> 
+                                              </th>
+                                              <td>
+                                                <strong>  N117,740.00 </strong>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </div>
+                                    </div>
+                                    <div class="tab-pane " id="updates" role="tabpanel" aria-labelledby="updates-tab">
+                                      The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a total population of more than 19 billion as of 2011. There are more chickens in the world than any other bird or domesticated fowl.   
+                                    </div>
+                                    <div class="tab-pane" id="docs" role="tabpanel" aria-labelledby="docs-tab">
+                                      Kiwi or kiwis are flightless birds native to New Zealand, in the genus Apteryx and family Apterygidae. Approximately the size of a domestic chicken, kiwi are by far the smallest living ratites (which also consist of ostriches, emus, rheas, and cassowaries), and lay the largest egg in relation to their body size of any species of bird in the world.            
+                                    </div>
+                                  </div>  
+                                </div>
+                              </td>
+                                </tr>
                            
                             </tbody>
                           </table>
                         </div>
                         <!-- Card footer -->
+                        
                         <div class="card-footer py-4">
                           <nav aria-label="...">
                             <ul class="pagination justify-content-end mb-0">
