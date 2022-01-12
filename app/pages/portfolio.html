@@ -46,7 +46,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="investment-review.html">
                 <i class=" text-primary"><img src="../assets/img/icons/Message.svg" width="20"></i>
                 <span class="nav-link-text">Invites  </span>
               </a>
@@ -779,6 +779,32 @@
     $(this).closest("li a").addClass('active');
 });
 </script>
+
+<!--<script>
+  jQuery(function ($) {
+    $(".navbar-nav li a.nav-link")
+        .click(function(e) {
+            var link = $(this);
+
+            var item = link.parent("li a");
+            
+            if (item.hasClass("active")) {
+                item.removeClass("active").children("a").removeClass("active");
+            } else {
+                item.addClass("active").children("a").addClass("active");
+            }
+
+            
+        })
+        .each(function() {
+            var link = $(this);
+            if (link.get(0).href === location.href) {
+                link.addClass("active").parents(".navbar-nav li a.nav-link").addClass("active");
+                return false;
+            }
+        });
+});
+</script>-->
 
 </body>
 
