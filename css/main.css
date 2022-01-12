@@ -26135,6 +26135,9 @@ img.spin {
   padding-top: 120px;
   padding-bottom: 40px;
 }
+.client-slider img{
+  width: 120px;
+}
 .secd img{
   max-width: 500px;
 }
