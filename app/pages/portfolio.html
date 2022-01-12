@@ -252,313 +252,504 @@
     <!-- Header -->
     <div class="header pb-6">
       <div class="container-fluid">
-          <div class="row align-items-center py-4">
+          <div class="row align-items-center py-2">
           </div>
           <!-- Card stats -->
           <div class="row">
-            <div class="col-xl-3 col-md-6">
-              <div class="card card-stats card1">
-                <!-- Card body -->
-                
-                <div class="card-body">
-                    <div class="row">
-                      <div class="col">
-                        <span class="badge bg-light cusBadge4 text-dark">USD ($)</span> <br>
-                        <span class="h2 font-weight-bold mb-0">$85.00</span>
-                      </div>
-                    </div>
-                    <p class="mt-3 mb-0 text-sm">
-                      <!--<span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>-->
-                      <span class="text-nowrap">Total invested</span>
-                    </p>
-                  </div>
+            <div class="col-xl-6 col-md-6">
+              &nbsp;
+           </div>
+            <div class="col-xl-6 col-md-6 text-right">
+                 <div class="alt btn btn-sm btn-neutral">
+                   <h2> 2 <small> live investment </small> 1 <small>Funded companies</small> </h2>
+                   </div>
               </div>
             </div>
-            <div class="col-xl-3 col-md-6">
-                <div class="card card-stats card2">
-                    <!-- Card body -->
-                    <div class="card-body">
-                      <div class="row">
-                        <div class="col">
-                            <span class="badge bg-light cusBadge3 text-dark">USD ($)</span> <br>
-                          <span class="h2 font-weight-bold mb-0">$200.00</span>
-                        </div>
-                      </div>
-                      <p class="mt-3 mb-0 text-sm">
-                        <span class="text-nowrap">Total committed</span>
-                      </p>
-                    </div>
-                  </div>
-            </div>
            
-          </div>
 
           <div class="row">
-              <div class="col-lg-12">
-                    <div class="card">
-                        <!-- Card header -->
-                        <div class="card-header border-0">
-                          <h3 class="mb-0">My investments</h3>
+            <div class="col-lg-12">
+              <ul class="nav nav-tabs nobrd" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link nsl active" data-toggle="tab" href="#tabs-1" role="tab">
+                    <div class="card card-stats card1">
+                      <!-- Card body -->
+                      
+                      <div class="card-body">
+                          <div class="row">
+                            <div class="col">
+                              <span class="badge bg-light cusBadge4 text-dark">USD ($)</span> <br>
+                              <span class="h2 font-weight-bold mb-0">$85.00</span>
+                            </div>
+                          </div>
+                          <p class="mt-3 mb-0 text-sm">
+                            <!--<span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>-->
+                            <span class="text-nowrap">Total invested</span>
+                          </p>
                         </div>
-                        <!-- Light table -->
-                        <div class="table-responsive">
-                          <table class="table align-items-center table-flush">
-                            <!--<thead class="thead-light">
-                              <tr>
-                                <th scope="col" class="sort" data-sort="name">Project</th>
-                                <th scope="col" class="sort" data-sort="budget">Budget</th>
-                                <th scope="col" class="sort" data-sort="status">Status</th>
-                                <th scope="col">Users</th>
-                                <th scope="col" class="sort" data-sort="completion">Completion</th>
-                                <th scope="col"></th>
-                              </tr>
-                            </thead>-->
-                            <tbody class="list">
-                              <tr>
-                                <th scope="row">
-                                  <div class="media align-items-center">
-                                    <a href="#" class="avatar rounded-circle mr-3">
-                                      <img alt="Image placeholder" src="../assets/img/figg-bg-icon.svg" width="100">
-                                    </a>
-                                    <div class="media-body">
-                                      <span class="name mb-0 text-sm">Figg</span> <br>
-                                      <span class="badge bg-light cusBadge text-dark"><img src="../assets/img/cif_ng.svg" width="12"> NG</span>
-                                    </div>
-                                  </div>
-                                </th>
-                                <td class="budget">
-                                   <small> Valuation Cap: </small> <br>
-                                         $4,000,000
-                                </td>
-                                <td class="budget">
-                                    <small> Amount raised: </small> <br>
-                                    $250,00,000
-                                 </td>
-                                 <td class="budget">
-                                    <small>% Raised: </small> <br>
-                                    <div class="d-flex align-items-center">
-                                        <span class="completion mr-2">60%</span>
-                                        <div>
-                                          <div class="progress">
-                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nsl" data-toggle="tab" href="#tabs-2" role="tab">
+                    <div class="card card-stats card2">
+                      <!-- Card body -->
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col">
+                              <span class="badge bg-light cusBadge3 text-dark">USD ($)</span> <br>
+                            <span class="h2 font-weight-bold mb-0">$200.00</span>
+                          </div>
+                        </div>
+                        <p class="mt-3 mb-0 text-sm">
+                          <span class="text-nowrap">Total committed</span>
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <!--<li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">Third Panel</a>
+                </li>-->
+              </ul><!-- Tab panes -->
+              <div class="tab-content">
+                <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                  <div class="row">
+                    <div class="col-lg-12">
+                          <div class="card">
+                              <!-- Card header -->
+                              <div class="card-header border-0">
+                                <h3 class="mb-0">My investments</h3>
+                              </div>
+                              <!-- Light table -->
+                              <div class="table-responsive">
+                                <table class="table align-items-center table-flush">
+                                  <!--<thead class="thead-light">
+                                    <tr>
+                                      <th scope="col" class="sort" data-sort="name">Project</th>
+                                      <th scope="col" class="sort" data-sort="budget">Budget</th>
+                                      <th scope="col" class="sort" data-sort="status">Status</th>
+                                      <th scope="col">Users</th>
+                                      <th scope="col" class="sort" data-sort="completion">Completion</th>
+                                      <th scope="col"></th>
+                                    </tr>
+                                  </thead>-->
+                                  <tbody class="list">
+                                    <tr>
+                                      <th scope="row">
+                                        <div class="media align-items-center">
+                                          <a href="#" class="avatar rounded-circle mr-3">
+                                            <img alt="Image placeholder" src="../assets/img/figg-bg-icon.svg" width="100">
+                                          </a>
+                                          <div class="media-body">
+                                            <span class="name mb-0 text-sm">Figg</span> <br>
+                                            <span class="badge bg-light cusBadge text-dark"><img src="../assets/img/cif_ng.svg" width="12"> NG</span>
                                           </div>
                                         </div>
-                                      </div>
-                                 </td>
-                                 <td class="budget">
-                                    <small>Total Invested: </small> <br>
-                                    $25.00
-                                 </td>
-
-                                 <td class="budget">
-                                    <span class="badge rounded-pill bg-light tbadge text-dark">Processing</span>
-                                 </td>
-                               
-                                <td class="text-right">
-                                  <div class="dropdown">
-                                    <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      <i class="fas fa-ellipsis-v"></i>
-                                    </a>
-                                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow" style="">
-                                      <a class="dropdown-item" href="#">Action</a>
-                                      <a class="dropdown-item" href="#">Another action</a>
-                                      <a class="dropdown-item" href="#">Something else here</a>
-                                    </div>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr>
-                                <th scope="row">
-                                  <div class="media align-items-center">
-                                    <a href="#" class="avatar rounded-circle mr-3">
-                                      <img alt="Image placeholder" src="../assets/img/figg-bg-icon.svg" width="100">
-                                    </a>
-                                    <div class="media-body">
-                                      <span class="name mb-0 text-sm">Figg</span> <br>
-                                      <span class="badge bg-light cusBadge text-dark"><img src="../assets/img/cif_ng.svg" width="12"> NG</span>
-                                    </div>
-                                  </div>
-                                </th>
-                                <td class="budget">
-                                   <small> Valuation Cap: </small> <br>
-                                         $4,000,000
-                                </td>
-                                <td class="budget">
-                                    <small> Amount raised: </small> <br>
-                                    $250,00,000
-                                 </td>
-                                 <td class="budget">
-                                    <small>% Raised: </small> <br>
-                                    <div class="d-flex align-items-center">
-                                        <span class="completion mr-2">100%</span>
-                                        <div>
-                                            <div class="progress">
-                                                <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                                      </th>
+                                      <td class="budget">
+                                         <small> Valuation Cap: </small> <br>
+                                               $4,000,000
+                                      </td>
+                                      <td class="budget">
+                                          <small> Amount raised: </small> <br>
+                                          $250,00,000
+                                       </td>
+                                       <td class="budget">
+                                          <small>% Raised: </small> <br>
+                                          <div class="d-flex align-items-center">
+                                              <span class="completion mr-2">60%</span>
+                                              <div>
+                                                <div class="progress">
+                                                  <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                                </div>
                                               </div>
-                                        </div>
-                                      </div>
-                                 </td>
-                                 <td class="budget">
-                                    <small>Total Invested: </small> <br>
-                                    $25.00
-                                 </td>
-
-                                 <td class="budget">
-                                    <span class="badge rounded-pill bg-light tbadge text-dark">Processing</span>
-                                 </td>
-                               
-                                <td class="text-right">
-                                  <div class="dropdown">
-                                    <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      <i class="fas fa-ellipsis-v"></i>
-                                    </a>
-                                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow" style="">
-                                      <a class="dropdown-item" href="#">Action</a>
-                                      <a class="dropdown-item" href="#">Another action</a>
-                                      <a class="dropdown-item" href="#">Something else here</a>
-                                    </div>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr  class="accordion-toggle collapsed" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
-                                <th scope="row">
-                                  <div class="media align-items-center">
-                                    <a href="#" class="avatar rounded-circle mr-3">
-                                      <img alt="Image placeholder" src="../assets/img/figg-bg-icon.svg" width="100">
-                                    </a>
-                                    <div class="media-body">
-                                      <span class="name mb-0 text-sm">Figg</span> <br>
-                                      <span class="badge bg-light cusBadge text-dark"><img src="../assets/img/cif_ng.svg" width="12"> NG</span>
-                                    </div>
-                                  </div>
-                                </th>
-                                <td class="budget">
-                                   <small> Valuation Cap: </small> <br>
-                                         $4,000,000
-                                </td>
-                                <td class="budget">
-                                    <small> Amount raised: </small> <br>
-                                    $250,00,000
-                                 </td>
-                                 <td class="budget">
-                                    <small>% Raised: </small> <br>
-                                    <div class="d-flex align-items-center">
-                                        <span class="completion mr-2">60%</span>
-                                        <div>
-                                          <div class="progress">
-                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                            </div>
+                                       </td>
+                                       <td class="budget">
+                                          <small>Total Invested: </small> <br>
+                                          $25.00
+                                       </td>
+      
+                                       <td class="budget">
+                                          <span class="badge rounded-pill bg-light tbadge text-dark">Processing</span>
+                                       </td>
+                                     
+                                      <td class="text-right">
+                                        <div class="dropdown">
+                                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                          </a>
+                                          <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow" style="">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
                                           </div>
                                         </div>
+                                      </td>
+                                    </tr>
+      
+                                    <tr>
+                                      <th scope="row">
+                                        <div class="media align-items-center">
+                                          <a href="#" class="avatar rounded-circle mr-3">
+                                            <img alt="Image placeholder" src="../assets/img/figg-bg-icon.svg" width="100">
+                                          </a>
+                                          <div class="media-body">
+                                            <span class="name mb-0 text-sm">Figg</span> <br>
+                                            <span class="badge bg-light cusBadge text-dark"><img src="../assets/img/cif_ng.svg" width="12"> NG</span>
+                                          </div>
+                                        </div>
+                                      </th>
+                                      <td class="budget">
+                                         <small> Valuation Cap: </small> <br>
+                                               $4,000,000
+                                      </td>
+                                      <td class="budget">
+                                          <small> Amount raised: </small> <br>
+                                          $250,00,000
+                                       </td>
+                                       <td class="budget">
+                                          <small>% Raised: </small> <br>
+                                          <div class="d-flex align-items-center">
+                                              <span class="completion mr-2">100%</span>
+                                              <div>
+                                                  <div class="progress">
+                                                      <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                                                    </div>
+                                              </div>
+                                            </div>
+                                       </td>
+                                       <td class="budget">
+                                          <small>Total Invested: </small> <br>
+                                          $25.00
+                                       </td>
+      
+                                       <td class="budget">
+                                          <span class="badge rounded-pill bg-light tbadge text-dark">Processing</span>
+                                       </td>
+                                     
+                                      <td class="text-right">
+                                        <div class="dropdown">
+                                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                          </a>
+                                          <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow" style="">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+      
+                                    <tr  class="accordion-toggle collapsed" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
+                                      <th scope="row">
+                                        <div class="media align-items-center">
+                                          <a href="#" class="avatar rounded-circle mr-3">
+                                            <img alt="Image placeholder" src="../assets/img/figg-bg-icon.svg" width="100">
+                                          </a>
+                                          <div class="media-body">
+                                            <span class="name mb-0 text-sm">Figg</span> <br>
+                                            <span class="badge bg-light cusBadge text-dark"><img src="../assets/img/cif_ng.svg" width="12"> NG</span>
+                                          </div>
+                                        </div>
+                                      </th>
+                                      <td class="budget">
+                                         <small> Valuation Cap: </small> <br>
+                                               $4,000,000
+                                      </td>
+                                      <td class="budget">
+                                          <small> Amount raised: </small> <br>
+                                          $250,00,000
+                                       </td>
+                                       <td class="budget">
+                                          <small>% Raised: </small> <br>
+                                          <div class="d-flex align-items-center">
+                                              <span class="completion mr-2">60%</span>
+                                              <div>
+                                                <div class="progress">
+                                                  <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                       </td>
+                                       <td class="budget">
+                                          <small>Total Invested: </small> <br>
+                                          $25.00
+                                       </td>
+      
+                                       <td class="budget">
+                                          <span class="badge rounded-pill bg-light tbadge text-dark">Processing</span>
+                                       </td>
+                                     
+                                       <td class="expand-button text-right"></td>
+                                    </tr>
+                                    <tr class="hide-table-padding">
+                                      <td colspan="10"> 
+                                      <div id="collapseOne" class="collapse in p-3">
+                                        <ul class="nav nav-tabs nav-fill" role="tablist">
+                                          <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#transactions" role="tab" aria-controls="transactions" aria-selected="true">Transactions</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#updates" role="tab" aria-controls="updates" aria-selected="false">Updates & Discussions</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="false">Documents</a>
+                                          </li>
+                                        </ul>
+                                        
+                                        <div class="tab-content mt-3">
+                                          <div class="tab-pane active" id="transactions" role="tabpanel" aria-labelledby="transactions-tab">
+                                            <div class="table-responsive">
+                                              <!-- Projects table -->
+                                              <table class="table align-items-center table-flush">
+                                                <thead class="thead-light">
+                                                  <tr>
+                                                    <th scope="col">Date Invested</th>
+                                                    <th scope="col">Amount Invested</th>
+                                                    <th scope="col">Payment Status</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <td>
+                                                      June 13th, 2021 05:55
+                                                    </td>
+                                                    <td>
+                                                      $200.00
+                                                    </td>
+                                                    <td>
+                                                      Processing
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">
+                                                      <strong>Total </strong> 
+                                                    </th>
+                                                    <td>
+                                                      <strong>  N117,740.00 </strong>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </div>
+                                          <div class="tab-pane " id="updates" role="tabpanel" aria-labelledby="updates-tab">
+                                            The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a total population of more than 19 billion as of 2011. There are more chickens in the world than any other bird or domesticated fowl.   
+                                          </div>
+                                          <div class="tab-pane" id="docs" role="tabpanel" aria-labelledby="docs-tab">
+                                            Kiwi or kiwis are flightless birds native to New Zealand, in the genus Apteryx and family Apterygidae. Approximately the size of a domestic chicken, kiwi are by far the smallest living ratites (which also consist of ostriches, emus, rheas, and cassowaries), and lay the largest egg in relation to their body size of any species of bird in the world.            
+                                          </div>
+                                        </div>  
                                       </div>
-                                 </td>
-                                 <td class="budget">
-                                    <small>Total Invested: </small> <br>
-                                    $25.00
-                                 </td>
-
-                                 <td class="budget">
-                                    <span class="badge rounded-pill bg-light tbadge text-dark">Processing</span>
-                                 </td>
-                               
-                                 <td class="expand-button text-right"></td>
-                              </tr>
-                              <tr class="hide-table-padding">
-                                <td colspan="10"> 
-                                <div id="collapseOne" class="collapse in p-3">
-                                  <ul class="nav nav-tabs nav-fill" role="tablist">
-                                    <li class="nav-item">
-                                      <a class="nav-link active" data-toggle="tab" href="#transactions" role="tab" aria-controls="transactions" aria-selected="true">Transactions</a>
+                                    </td>
+                                      </tr>
+                                 
+                                  </tbody>
+                                </table>
+                              </div>
+                              <!-- Card footer -->
+                              
+                              <div class="card-footer py-4">
+                                <nav aria-label="...">
+                                  <ul class="pagination justify-content-end mb-0">
+                                    <li class="page-item disabled">
+                                      <a class="page-link" href="#" tabindex="-1">
+                                        <i class="fas fa-angle-left"></i>
+                                        <span class="sr-only">Previous</span>
+                                      </a>
                                     </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" data-toggle="tab" href="#updates" role="tab" aria-controls="updates" aria-selected="false">Updates & Discussions</a>
+                                    <li class="page-item active">
+                                      <a class="page-link" href="#">1</a>
                                     </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="false">Documents</a>
+                                    <li class="page-item">
+                                      <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                      <a class="page-link" href="#">
+                                        <i class="fas fa-angle-right"></i>
+                                        <span class="sr-only">Next</span>
+                                      </a>
                                     </li>
                                   </ul>
-                                  
-                                  <div class="tab-content mt-3">
-                                    <div class="tab-pane active" id="transactions" role="tabpanel" aria-labelledby="transactions-tab">
-                                      <div class="table-responsive">
-                                        <!-- Projects table -->
-                                        <table class="table align-items-center table-flush">
-                                          <thead class="thead-light">
-                                            <tr>
-                                              <th scope="col">Date Invested</th>
-                                              <th scope="col">Amount Invested</th>
-                                              <th scope="col">Payment Status</th>
-                                            </tr>
-                                          </thead>
-                                          <tbody>
-                                            <tr>
-                                              <td>
-                                                June 13th, 2021 05:55
-                                              </td>
-                                              <td>
-                                                $200.00
-                                              </td>
-                                              <td>
-                                                Processing
-                                              </td>
-                                            </tr>
-                                            <tr>
-                                              <th scope="row">
-                                                <strong>Total </strong> 
-                                              </th>
-                                              <td>
-                                                <strong>  N117,740.00 </strong>
-                                              </td>
-                                            </tr>
-                                          </tbody>
-                                        </table>
+                                </nav>
+                              </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+                <div class="tab-pane" id="tabs-2" role="tabpanel">
+                  <div class="row">
+                    <div class="col-lg-12">
+                          <div class="card">
+                              <!-- Card header -->
+                              <div class="card-header border-0">
+                                <h3 class="mb-0">My Commitment</h3>
+                              </div>
+                              <!-- Light table -->
+                              <div class="table-responsive">
+                                <table class="table align-items-center table-flush">
+                                  <!--<thead class="thead-light">
+                                    <tr>
+                                      <th scope="col" class="sort" data-sort="name">Project</th>
+                                      <th scope="col" class="sort" data-sort="budget">Budget</th>
+                                      <th scope="col" class="sort" data-sort="status">Status</th>
+                                      <th scope="col">Users</th>
+                                      <th scope="col" class="sort" data-sort="completion">Completion</th>
+                                      <th scope="col"></th>
+                                    </tr>
+                                  </thead>-->
+                                  <tbody class="list">
+                                    
+                                    <tr  class="accordion-toggle collapsed" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
+                                      <th scope="row">
+                                        <div class="media align-items-center">
+                                          <a href="#" class="avatar rounded-circle mr-3">
+                                            <img alt="Image placeholder" src="../assets/img/figg-bg-icon.svg" width="100">
+                                          </a>
+                                          <div class="media-body">
+                                            <span class="name mb-0 text-sm">Figg</span> <br>
+                                            <span class="badge bg-light cusBadge text-dark"><img src="../assets/img/cif_ng.svg" width="12"> NG</span>
+                                          </div>
+                                        </div>
+                                      </th>
+                                      <td class="budget">
+                                         <small> Valuation Cap: </small> <br>
+                                               $4,000,000
+                                      </td>
+                                      <td class="budget">
+                                          <small> Amount raised: </small> <br>
+                                          $250,00,000
+                                       </td>
+                                       <td class="budget">
+                                          <small>% Raised: </small> <br>
+                                          <div class="d-flex align-items-center">
+                                              <span class="completion mr-2">60%</span>
+                                              <div>
+                                                <div class="progress">
+                                                  <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                       </td>
+                                       <td class="budget">
+                                          <small>Total Invested: </small> <br>
+                                          $25.00
+                                       </td>
+      
+                                       <td class="budget">
+                                          <span class="badge rounded-pill bg-light tbadge text-dark">Processing</span>
+                                       </td>
+                                     
+                                       <td class="expand-button text-right"></td>
+                                    </tr>
+                                    <tr class="hide-table-padding">
+                                      <td colspan="10"> 
+                                      <div id="collapseOne" class="collapse in p-3">
+                                        <ul class="nav nav-tabs nav-fill" role="tablist">
+                                          <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#transactions" role="tab" aria-controls="transactions" aria-selected="true">Transactions</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#updates" role="tab" aria-controls="updates" aria-selected="false">Updates & Discussions</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="false">Documents</a>
+                                          </li>
+                                        </ul>
+                                        
+                                        <div class="tab-content mt-3">
+                                          <div class="tab-pane active" id="transactions" role="tabpanel" aria-labelledby="transactions-tab">
+                                            <div class="table-responsive">
+                                              <!-- Projects table -->
+                                              <table class="table align-items-center table-flush">
+                                                <thead class="thead-light">
+                                                  <tr>
+                                                    <th scope="col">Date Invested</th>
+                                                    <th scope="col">Amount Invested</th>
+                                                    <th scope="col">Payment Status</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <td>
+                                                      June 13th, 2021 05:55
+                                                    </td>
+                                                    <td>
+                                                      $200.00
+                                                    </td>
+                                                    <td>
+                                                      Processing
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">
+                                                      <strong>Total </strong> 
+                                                    </th>
+                                                    <td>
+                                                      <strong>  N117,740.00 </strong>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </div>
+                                          <div class="tab-pane " id="updates" role="tabpanel" aria-labelledby="updates-tab">
+                                            The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a total population of more than 19 billion as of 2011. There are more chickens in the world than any other bird or domesticated fowl.   
+                                          </div>
+                                          <div class="tab-pane" id="docs" role="tabpanel" aria-labelledby="docs-tab">
+                                            Kiwi or kiwis are flightless birds native to New Zealand, in the genus Apteryx and family Apterygidae. Approximately the size of a domestic chicken, kiwi are by far the smallest living ratites (which also consist of ostriches, emus, rheas, and cassowaries), and lay the largest egg in relation to their body size of any species of bird in the world.            
+                                          </div>
+                                        </div>  
                                       </div>
-                                    </div>
-                                    <div class="tab-pane " id="updates" role="tabpanel" aria-labelledby="updates-tab">
-                                      The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a total population of more than 19 billion as of 2011. There are more chickens in the world than any other bird or domesticated fowl.   
-                                    </div>
-                                    <div class="tab-pane" id="docs" role="tabpanel" aria-labelledby="docs-tab">
-                                      Kiwi or kiwis are flightless birds native to New Zealand, in the genus Apteryx and family Apterygidae. Approximately the size of a domestic chicken, kiwi are by far the smallest living ratites (which also consist of ostriches, emus, rheas, and cassowaries), and lay the largest egg in relation to their body size of any species of bird in the world.            
-                                    </div>
-                                  </div>  
-                                </div>
-                              </td>
-                                </tr>
-                           
-                            </tbody>
-                          </table>
+                                    </td>
+                                      </tr>
+                                 
+                                  </tbody>
+                                </table>
+                              </div>
+                              <!-- Card footer -->
+                              
+                              <div class="card-footer py-4">
+                                <nav aria-label="...">
+                                  <ul class="pagination justify-content-end mb-0">
+                                    <li class="page-item disabled">
+                                      <a class="page-link" href="#" tabindex="-1">
+                                        <i class="fas fa-angle-left"></i>
+                                        <span class="sr-only">Previous</span>
+                                      </a>
+                                    </li>
+                                    <li class="page-item active">
+                                      <a class="page-link" href="#">1</a>
+                                    </li>
+                                    <li class="page-item">
+                                      <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                      <a class="page-link" href="#">
+                                        <i class="fas fa-angle-right"></i>
+                                        <span class="sr-only">Next</span>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </nav>
+                              </div>
+                            </div>
                         </div>
-                        <!-- Card footer -->
-                        
-                        <div class="card-footer py-4">
-                          <nav aria-label="...">
-                            <ul class="pagination justify-content-end mb-0">
-                              <li class="page-item disabled">
-                                <a class="page-link" href="#" tabindex="-1">
-                                  <i class="fas fa-angle-left"></i>
-                                  <span class="sr-only">Previous</span>
-                                </a>
-                              </li>
-                              <li class="page-item active">
-                                <a class="page-link" href="#">1</a>
-                              </li>
-                              <li class="page-item">
-                                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-                              </li>
-                              <li class="page-item"><a class="page-link" href="#">3</a></li>
-                              <li class="page-item">
-                                <a class="page-link" href="#">
-                                  <i class="fas fa-angle-right"></i>
-                                  <span class="sr-only">Next</span>
-                                </a>
-                              </li>
-                            </ul>
-                          </nav>
-                        </div>
-                      </div>
-                  </div>
+                </div>
+                </div>
+                <!--<div class="tab-pane" id="tabs-3" role="tabpanel">
+                  <p>Third Panel</p>
+                </div>-->
+              </div>
+            </div>
           </div>
+
+         
       </div>
     </div>
 
@@ -578,6 +769,17 @@
   <script src="../assets/vendor/chart.js/dist/Chart.extension.js"></script>
   <!-- Argon JS -->
   <script src="../assets/js/figg.js"></script>
+
+<script>
+  $(".navbar-nav li a.nav-link").click(function(){
+    // Remove active if this does not have active class
+    if(!($(this).closest("li").hasClass("active"))){
+        $(this).closest(".navbar-nav").find("li a.active").removeClass('active');
+    }
+    $(this).closest("li a").addClass('active');
+});
+</script>
+
 </body>
 
 </html>

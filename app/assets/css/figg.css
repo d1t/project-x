@@ -30072,14 +30072,13 @@ a {
     color: #FF7C24;
 }
 .card1{
-    background:  #FF7C24 !important;
-    color: #FFF;
+    background:  none;
 }
 .card2{
-    background:  #FFF !important;
+    background:  none;
 }
 .card1 span.h2{
-    color: #FFF !important;
+    /*color: #FFF !important;*/
 }
 .card2 span.h2{
     color: #303030 !important;
@@ -30157,4 +30156,22 @@ tr.hide-table-padding td {
   a:hover{
       color: #FF7C24;
   }
-  
+  .nav-tabs .nsl.active, .nav-tabs .nav-item.show .nsl {
+    color: #525f7f;
+    border: none;
+    background-color: #ffc49c !important;
+  }
+  .nav-tabs .nsl {
+    background: #FFF;
+}
+.nsl{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px !important;
+}
+ .nsl .card{
+     box-shadow: none !important;
+ }
+ .nobrd{
+     border: none !important;
+ }

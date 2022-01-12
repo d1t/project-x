@@ -26451,5 +26451,12 @@ button:hover {
 .aps input{
   border: none !important;
 }
+.mbdy lottie-player{
+  margin: auto;
+}
+.mbdy h3{
+  font-weight: 600;
+  color: #38063C;
+}
 
 /*# sourceMappingURL=maps/main.css.map */

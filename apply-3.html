@@ -141,7 +141,8 @@
                             <input type="text" name="" placeholder="Enter here" id="" class="form-control ">
                           </div>
                           <div class="form-group text-right">
-                            <a class="btn w-100 get-free-demo-btn btn-style-02 sub2 float-right"> Submit</a>
+                            <a href="#" data-toggle="modal" id="dnd" data-target="#doneModal" class="btn w-100 get-free-demo-btn btn-style-02 sub2 float-right" > Submit</a>
+                          
                             </div>
                       </form>
                     </div>
@@ -151,13 +152,43 @@
      </div>
     </div>
     <!-- Features Area -->
-    
+
+      <!-- Modal -->
+      <div class="modal fade" id="doneModal" tabindex="-1" aria-labelledby="doneModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!--<div class="modal-header">
+              <h5 class="modal-title" id="doneModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>-->
+            <div class="modal-body">
+                <div class="mbdy text-center">
+                    <lottie-player src="image/checkmarks.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" speed=".5" loop  autoplay></lottie-player>
+                  <h3>Thank you for applying</h3>
+                  <p>
+                    We will send you an email regarding the next 
+                    steps in your application process
+                  </p>
+                </div>
+                <div class="form-group text-center">
+                    <a href="index.html" class="btn w-100 get-free-demo-btn btn-style-02 sub2 float-right" >Go Home</a>
+                  </div>
+            <!--<div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>-->
+          </div>
+        </div>
+      </div>
     <!-- Footer Area -->
-   
   </div>
+
+  </div>
+  
+
+
   <!-- Vendor Scripts -->
   <script src="./plugins/jquery/jquery.min.js"></script>
-  <script src="js/vendor.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <!-- Plugin's Scripts -->
   <script src="./plugins/aos/aos.min.js"></script>
@@ -199,6 +230,14 @@ accordionItemHeaders.forEach((accordionItemHeader) => {
   });
 });
  </script>
+ <script src="js/lottie.js"></script>
+ <script>
+  $(document).ready(function(){
+  $('#dnd').click(function(){
+    $('#doneModal').modal('show');
+   });
+});
+    </script>
 </body>
 
 </html>
