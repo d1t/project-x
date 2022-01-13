@@ -485,6 +485,9 @@ legend
         width: 100%;
         text-align: right;
     }
+    .figg-color{
+        color: #ff7b24 !important;
+    }
 }
 
 progress
@@ -20115,6 +20118,8 @@ a.btn-icon-only
     height: calc(1.5em + 1.25rem + 5px); 
 
     transition: all .15s ease-in-out;
+    background: #F9F9F9;
+    border-color: #f9f5f5;
 }
 @media (prefers-reduced-motion: reduce)
 {
