@@ -762,7 +762,11 @@ div#loading img {
   .remember-text{
     font-size: 13px !important;
   }
-  
+  .h-50 {
+    height: 60% !important;
+    padding-top: 200px !important;
+    padding-bottom: 0px !important;
+}
 }
 
 @media (min-width: 992px) {
@@ -26430,8 +26434,8 @@ button:hover {
   padding-top: 200px;
 }
 .h-50{
-  height: 50% !important;
-  padding-top: 100px !important;
+  height: 50% ;
+  padding-top: 100px;
   padding-bottom: 0px !important;
 }
 .inX{
