@@ -645,12 +645,20 @@ h6,
     font-weight: 600;
     line-height: 1.5;
 }
+.dlft{
+    margin-top: 15px !important;
+    text-align: right;
+  }
 @media (max-width: 1200px)
 {
     .display-3
     {
         font-size: calc(1.34375rem + 1.125vw) ;
     }
+    .dlft{
+        margin-top: 15px !important;
+        text-align: left !important;
+      }
 }
 
 .display-4

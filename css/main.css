@@ -733,6 +733,35 @@ div#loading img {
     padding-bottom: 15px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
+  .sign-in-3-box .heading{
+  
+  }
+  .pUp{
+    padding-top: 100px !important;
+  }
+  .ald{
+    display: none;
+  }
+  .ald2{
+    display: block !important;
+  }
+  .ald2 a{
+    display: block;
+    width: 34px;
+    padding: 5px;
+    background: #f9fafb;
+    border-radius: 5px;
+  }
+  .nomob{
+    display: none;
+  }
+  .mobv{
+    display: block !important;
+    text-align: center;
+  }
+  .remember-text{
+    font-size: 13px !important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -835,6 +864,7 @@ div#loading img {
     padding-bottom: 13px;
     padding-top: 13px;
   }
+ 
 }
 
 @media (min-width: 992px) {
@@ -21031,7 +21061,7 @@ Content Area-1 L-11-2
   line-height: 30px;
   color: #FFFFFF;
   height: 56px;
-  margin: 20px 0px 35px 0px;
+  margin: 20px 0px 15px 0px;
 }
 .sign-in-3-box form .sign-in-log-btn .btn:hover{
   opacity: .7;
@@ -23292,6 +23322,9 @@ Content Area-1 L-11-2
   .inner-price-table-2 .price_info_two .price_item:first-child {
     padding-left: 10px;
   }
+  .sign-in-3 {
+    overflow: auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -23300,7 +23333,7 @@ Content Area-1 L-11-2
     width: 100%;
     position: relative;
     overflow: hidden;
-  }
+}
 }
 
 @media (max-width: 768px) {
@@ -26377,6 +26410,18 @@ button:hover {
   text-align: right;
   z-index: 999;
 }
+.ald2{
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 300px;
+  text-align: left;
+  z-index: 999;
+  display: none;
+}
+.mobv{
+  display: none;
+}
 .create-new-acc-text a img:hover{
   opacity: .7;
 }
@@ -26458,5 +26503,7 @@ button:hover {
   font-weight: 600;
   color: #38063C;
 }
-
+.remember-text{
+  font-size: 13px;
+}
 /*# sourceMappingURL=maps/main.css.map */
