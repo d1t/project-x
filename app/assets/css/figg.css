@@ -29969,9 +29969,13 @@ input.datetimepicker[data-color='yellow'] + .bootstrap-datetimepicker-widget.dro
   }
   .ptxt h4{
       color: #38063C;
+      font-size: 14px;
   }
   .ptxt h4 small{
       color: #303030;
+  }
+  .ptxt h4 span{
+      color: #FF7C24;
   }
   .bread-nostyle {
     display: flex;
