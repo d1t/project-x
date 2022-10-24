@@ -457,9 +457,11 @@ div#loading img {
 }
 
 .site-header--menu-right .menu-block {
-  margin-left: auto;
+  /*margin-left: auto; */
 }
-
+.mobNav{
+  display: none;
+}
 @media (min-width: 992px) {
   .site-header--menu-right > .container-fluid .sub-menu.megamenu {
     left: 100%;
@@ -480,6 +482,7 @@ div#loading img {
     padding-left: 10px;
     padding-right: 10px;
   }
+  
 }
 
 @media (min-width: 992px) {
@@ -23309,6 +23312,12 @@ Content Area-1 L-11-2
   .inner-price-table-2 .price_info_two .price_btn {
     font-size: 16px;
   }
+ 
+}
+@media (max-width: 576px) {
+  .mobNav{
+    display: block;
+  }
 }
 
 @media (max-width: 768px) {
@@ -23317,6 +23326,7 @@ Content Area-1 L-11-2
     display: block;
     width: 100%;
   }
+ 
 }
 
 @media (max-width: 768px) {
@@ -25750,8 +25760,8 @@ a {
   position: absolute;
   top: 0%;
   left: 0%;
-  border-radius: 10px;
-  background: #38063C;
+  border-radius: 60px;
+  background: #FF7C24;
   transition: all .5s;
   z-index: -1;
   opacity: 0;
@@ -26743,4 +26753,18 @@ button:hover {
 .flin a{
   text-decoration: none;
   color: #677279;
+}
+.btn-r{
+  min-width: 200px;
+  height: 50px;
+  border-radius: 60px;
+  border: 1px solid #FF7C24;
+  color: #FF7C24 !important;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  background: none !important;
+  box-shadow: none !important;
+
 }
