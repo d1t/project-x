@@ -21667,7 +21667,7 @@ textarea[resize='horizontal']
     padding-left: 1rem;*/
 
     border-radius: .375rem; 
-    background: #f6f9fc;
+    background: #FFF8F4;
     color: #FF7C24;
     border-right: 4px solid #FF7C24;
     font-weight: bold;
@@ -30192,3 +30192,61 @@ tr.hide-table-padding td {
  .nobrd{
      border: none !important;
  }
+ .filt{
+    margin: 0px;
+    padding: 0px;
+ }
+ .filt li{
+    list-style: none;
+    display: block;
+    float: right;
+    margin-right: 15px;
+ }
+ .filt li:first-child{
+    margin-right: 0px;
+ }
+ .clist{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EBEBEB;
+ }
+.clist ul{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.clist ul li{
+    list-style: none;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+.clist ul li:last-child{
+    float: right;
+    margin-right: 0px;
+    text-align: right;
+}
+.clist ul li p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.lst h2{
+    text-align: center;
+}
+.lst a{
+    display: block;
+    width: auto;
+    border: 1px solid #FF7C24;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: #000;
+}
+.lst a i{
+    /*color: #FF7C24; */
+}
+.active, .lst a:hover {
+    color: #FF7C24;
+  }
+  .no-pad{
+    padding: 0px;
+  }
