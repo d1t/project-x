@@ -30221,6 +30221,10 @@ tr.hide-table-padding td {
     float: left;
     margin-right: 20px;
 }
+.clist li small{
+    display: inline-block;
+    margin-left: 90px;
+}
 .clist ul li:last-child{
     float: right;
     margin-right: 0px;
@@ -30546,10 +30550,12 @@ tr.hide-table-padding td {
     border: 1px solid #CCC;
     padding: 10px;
     border-radius: 10px;
+    margin-bottom: 15px;
   }
   .ucard ul{
     margin: 0px;
-    padding: 0px;
+    padding: 0px 20px;
+    display: block;
   }
   .ucard ul li{
     display: block;
@@ -30562,6 +30568,7 @@ tr.hide-table-padding td {
   }
   .ucard h4{
     font-weight: lighter;
+    margin-bottom: 0px;
   }
   .ucard small{
     display: inline-block;
@@ -30575,3 +30582,37 @@ tr.hide-table-padding td {
     border: 1px solid #C5C5C5;
     background: none;
   }
+  .fasx{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #1877F2;
+    border-radius: 50%;
+    padding: 10px;
+    background: none;
+  }
+  .tasx{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #55ACEE;
+    border-radius: 50%;
+    padding: 10px;
+    background: none;
+  }
+  .inlnk{
+    color: inherit;
+  }
+  .copyl {
+    width: auto;
+    background: #FF7C24;
+    color: #FFF;
+    border-radius: 10px;
+    border: none;
+}
+ .nobgdrop{
+    background: none;
+    box-shadow: none;
+    font-weight: lighter;
+    font-size: 16px;
+ }

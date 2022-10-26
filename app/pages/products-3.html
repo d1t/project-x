@@ -345,7 +345,7 @@
 
                      <div class="btns-b">
                         <button class="tpa">Back</button> &nbsp;
-                        <button class="tpb">Submit</button>
+                        <button class="tpb" data-toggle="modal" data-target="#myModal">Submit</button>
                      </div>
 
                   </div>
@@ -362,6 +362,38 @@
     <!-- Page content -->
    
   </div>
+
+
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <!--<div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>-->
+        
+        <!-- Modal body -->
+        <div class="modal-body text-center">
+          <img src="../assets/img/success2.svg" width="150"> <br><br>
+          <h1> Submission successful </h1>
+          <p> 
+            Your submission has been received, we are
+currently reviewing it.
+          </p>
+          <button class="mbtn tpb" data-dismiss="modal"> Continue </button>
+        </div>
+        
+        <!-- Modal footer -->
+        <!--<div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>-->
+        
+      </div>
+    </div>
+  </div>
+
   <!-- Argon Scripts -->
   <!-- Core -->
   <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
