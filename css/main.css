@@ -26285,13 +26285,13 @@ a{
 }
 /* ACCORDION ITEM */
 .accordion-item {
-  /*text-align: center;
+  text-align: center;
   width: 100%;
-  background: #FAFAFA;
-  border: 1px solid #DCDCDC;
+  background: #F7F5F7;
+  /*border: 1px solid #DCDCDC;*/
   padding: 15px;
   border-radius: 10px;
-  margin-bottom: 15px;*/
+  margin-bottom: 15px;
 }
 .accordion-item-header {
   display: flex;

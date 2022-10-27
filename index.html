@@ -431,62 +431,61 @@ to invest in through Figg
      </div>
 
      </div>
-      <div class="row  ">
-        <div class="col-lg-12 margs">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  How are the companies selected that go on Figg?
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  What's the maximum I can invest?
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  What are the fees associated with investing on Figg?
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
 
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  What is the minimum amount I can invest?
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-
+      <!-- 01 ITEM -->
+      <div class="accordion-item">
+        <div id="test" class="accordion-item-header">
+          <div class="accordion-item-title">How are the companies selected that go on Figg?</div>
+          <span class="icon"></span>
+        </div>
+        <div class="accordion-item-body" style="max-height: 0px;">
+          <div class="accordion-item-body-content">
+            We have a thorough vetting process where startups go through various stages of checks before being accepted to the platform. We do background checks and all information provided on the website is fact checked. However, we recommend you also do your research on companies before investing.
+          </div>
+        </div>
+      </div>                
+      <!-- 02 ITEM -->
+      <div class="accordion-item">
+        <div id="test" class="accordion-item-header">
+          <div class="accordion-item-title"> How are the companies selected that go on Figg?</div>
+          <span class="icon"></span>
+        </div>
+        <div class="accordion-item-body" style="max-height: 0px;">
+          <div class="accordion-item-body-content">
+            We advise that you do not invest more than 10% of your annual income on any company as startup investing is risky and should only be part of a wider portfolio diversification strategy. Please read our risk warning below for more.
           </div>
         </div>
       </div>
+      <!-- 03 ITEM -->
+      <div class="accordion-item">
+        <div id="test" class="accordion-item-header">
+          <div class="accordion-item-title">What are the fees associated with investing on Figg?
+          </div>
+          <span class="icon"></span>
+        </div>
+        <div class="accordion-item-body" style="max-height: 0px;">
+          <div class="accordion-item-body-content">
+            Joining Figg is free – there is no fee associated with being a member of our investor community.
+
+            When you make an investment, you will be charged a processing fee, which is predominantly used to cover payment processing costs, so this may vary depending on your location, but there are no annual fees for the ongoing support we provide once you’ve made an investment.
+          </div>
+        </div>
+      </div>
+      <!-- 04 ITEM -->
+      <div class="accordion-item">
+        <div id="test" class="accordion-item-header">
+          <div class="accordion-item-title">What is the minimum amount I can invest?</div>
+          <span class="icon"></span>
+        </div>
+        <div class="accordion-item-body">
+          <div class="accordion-item-body-content">
+            The minimum you can invest in any one company is $10 or the equivalent in your local currency.
+          </div>
+        </div>
+      </div>
+     
+
+
     </div>
   </div>
 
@@ -684,6 +683,39 @@ to invest in through Figg
     }]
   });
 });
+  </script>
+  <script>
+    const accordionItemHeaders = document.querySelectorAll(
+      ".accordion-item-header"
+    );
+  
+    accordionItemHeaders.forEach((accordionItemHeader) => {
+      accordionItemHeader.addEventListener("click", (event) => {
+        // Allow to collapse one item at a time
+        const currentlyActiveAccordionItemHeader = document.querySelector(
+          ".accordion-item-header.active"
+        );
+        if (
+          currentlyActiveAccordionItemHeader &&
+          currentlyActiveAccordionItemHeader !== accordionItemHeader
+        ) {
+          currentlyActiveAccordionItemHeader.classList.toggle("active");
+          currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
+        }
+        //
+  
+        accordionItemHeader.classList.toggle("active");
+        const accordionItemBody = accordionItemHeader.nextElementSibling;
+        if (accordionItemHeader.classList.contains("active")) {
+          accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+        } else {
+          accordionItemBody.style.maxHeight = 0;
+        }
+      });
+      accordionItemHeader.addEventListener("click", function () {
+        document.getElementById("test").scrollIntoView({ behavior: "smooth" });
+      });
+    });
   </script>
 </body>
 
