@@ -30264,6 +30264,12 @@ tr.hide-table-padding td {
     .card-body{
         padding: 0px !important;
     }
+    .clink{
+        font-size: 11px;
+    }
+    .txtr{
+        text-align: left !important;
+    }
 }
   @media (max-width: 512px){
     .clist ul li img{
@@ -30336,6 +30342,11 @@ tr.hide-table-padding td {
     
         .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
 .txtC{
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 170px 20px 80px;
+}
+.tta{
     position: relative;
 }
 .im{
@@ -30348,6 +30359,9 @@ tr.hide-table-padding td {
     text-align: center;
     background: #FF7C24;
     color: #FFF;
+    position: absolute;
+    left: 20px;
+    top: 20px;
 }
 .cmbtn{
     padding: 10px 15px;
@@ -30355,9 +30369,23 @@ tr.hide-table-padding td {
     color: #000;
     border-radius: 30px;
     background-color: #FFF;
-    width: 100%;
+    width: 150px;
     display: block;
     text-align: center;
+    right: 20px;
+    bottom: 20px;
+    position: absolute;
+    
+}
+.cmbtn2{
+    padding: 10px 15px;
+    border: 1px solid #CCC;
+    color: #000;
+    border-radius: 30px;
+    background-color: #FFF;
+    display: block;
+    text-align: center;
+    
 }
 .cpad2{
     padding:20px;
@@ -30366,7 +30394,6 @@ tr.hide-table-padding td {
     margin-top: 20px;
 }
 .txtC{
-    resize: none;
     border: none;
     width: 100%;
 }
