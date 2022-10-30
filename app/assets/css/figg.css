@@ -30270,6 +30270,11 @@ tr.hide-table-padding td {
     .txtr{
         text-align: left !important;
     }
+    .tpa{
+        margin-top: 15px !important;
+        display: inline-block;
+    }
+  
 }
   @media (max-width: 512px){
     .clist ul li img{
@@ -30283,6 +30288,15 @@ tr.hide-table-padding td {
     }
     .clist ul li p{
         font-size: 10px;
+    }
+    .cmbtn {
+        position: inherit !important;
+        margin-top: 30px;
+    }
+    .txtC {
+        width: 100%;
+        min-height: 100px;
+        padding: 20px 20px 20px 80px !important;
     }
   }
   .toph{
@@ -30310,6 +30324,7 @@ tr.hide-table-padding td {
     color: #FFF;
     border-radius: 30px;
     border: none;
+    border: 1px solid #FF7C24;
 }
 .tpb:hover{
     color: #FFF;
