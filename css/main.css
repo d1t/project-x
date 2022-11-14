@@ -26768,3 +26768,15 @@ button:hover {
   box-shadow: none !important;
 
 }
+@media (max-width: 500px) {
+  .hs {
+    height: auto;
+}
+.gbg{
+  height: 400px !important;
+}
+.ob {
+  padding: 50px;
+  color: #FFF;
+}
+}
