@@ -26565,7 +26565,7 @@ button:hover {
 }
 .box{
   border: 1px solid #E3E3E3;
-  padding: 15px;
+  /*padding: 15px;*/
   margin-bottom: 15px;
   border-radius: 15px;
 }
@@ -26577,7 +26577,7 @@ button:hover {
   margin-bottom: 10px;
 }
 .box-im img{
-  border-radius: 15px;
+  border-radius: 15px 15px 0px 0px;
 }
 .box-txt{
   margin-bottom: 10px;
@@ -26834,4 +26834,18 @@ button:hover {
 }
 .ttxt{
   margin-top: 30px;
+}
+.box-txt-2{
+  padding: 0px 15px 15px 15px;
+}
+.m-auto{
+  margin: auto;
+}
+@media (max-width: 1200px) {
+  .rd-txt{
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    float: none;
+  }
 }
