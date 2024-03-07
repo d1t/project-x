@@ -2120,7 +2120,7 @@ li.sub-menu--item.nav-item-has-children i {
 .hero-area-l1 .content h2 {
   color: #303030;
   font-size: 40px !important;
-  font-weight: 700;
+  font-weight: 550;
   font-style: normal;
   letter-spacing: -1px;
   line-height: 55px !important;
@@ -2182,17 +2182,20 @@ li.sub-menu--item.nav-item-has-children i {
 }
 
 .l1-create-acc-btn .btn {
-  min-width: 268px;
-  height: 69px;
-  border-radius: 60px;
-  background-color: #FF7C24;
+  min-width: 200px;
+  height: 59px;
+  border-radius:10px;
+  background-color:  #38063C;
   color: #fff;
   font-size: 17px;
   font-weight: 400;
   font-style: normal;
   letter-spacing: normal;
-  box-shadow: 0 26px 46px rgba(241, 139, 98, 0.5);
-  margin-top: 22px;
+  /*box-shadow: 0 26px 46px rgba(241, 139, 98, 0.5); */
+  margin-top: 10px;
+}
+.lw-txt{
+  color:#888888;
 }
 
 .hero-image-group-l1 {
@@ -25732,8 +25735,8 @@ a {
   position: absolute;
   top: 0%;
   left: 0%;
-  border-radius: 60px;
-  background: #38063C;
+  border-radius: 10px;
+  background: #FF7C24;
   transition: all .5s;
   opacity: 0;
   z-index: -1;
@@ -25760,16 +25763,18 @@ a {
   position: absolute;
   top: 0%;
   left: 0%;
-  border-radius: 60px;
+  border-radius: 10px;
   background: #FF7C24;
   transition: all .5s;
   z-index: -1;
   opacity: 0;
+  border: 1px solid #FF7C24 !important;
 }
 
 .btn-style-03:hover {
   background: none !important;
   box-shadow: none !important;
+  border: 1px solid #FF7C24 !important;
 }
 
 .btn-style-03:hover:before {
@@ -25777,6 +25782,7 @@ a {
   color: #fff;
   opacity: 1;
   width: 100%;
+  border: 1px solid #FF7C24 !important;
 }
 
 /*Button Hover style 04*/
@@ -26079,7 +26085,7 @@ img.spin {
 .normbtn2 {
   min-width: 200px;
   height: 50px;
-  border-radius: 60px;
+  border-radius: 10px;
   border: 1px solid #FF7C24;
   color: #FF7C24;
   font-size: 17px;
@@ -26087,6 +26093,10 @@ img.spin {
   font-style: normal;
   letter-spacing: normal;
   margin-top: 22px;
+}
+.normbtn4 {
+  border: 1px solid #303030;
+  color: #303030;
 }
 .iMargs{
   margin-top: 60px;
@@ -26579,9 +26589,11 @@ button:hover {
   width: 80px;
     height: 75px;
     border-radius: 50%;
+
 }
 .box-txt-2 h5{
   color: #FF7C24;
+  
 }
 .ptxt h4{
   color: #677279;
@@ -26779,4 +26791,47 @@ button:hover {
   padding: 50px;
   color: #FFF;
 }
+}
+.cbtm{
+  margin-top: 20px;
+}
+.cbtm h5{
+  padding-top: 40px;
+}
+.rd-txt{
+  display: block;
+  width: 130px;
+  float: right;
+  margin-top: 50px;
+}
+.padAll1{
+  padding-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.txtA h3{
+  font-weight: 600;
+}
+.topT {
+
+}
+.topT span{
+  display: inline-block;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: #FFF;
+  background-color: #FF264D;
+}
+.rel-pos{
+  position: relative;
+}
+.c-im{
+  position: absolute;
+  left: 20px;
+  top: -50px;
+  margin-bottom: 30px;
+}
+.ttxt{
+  margin-top: 30px;
 }
