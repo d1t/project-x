@@ -1350,7 +1350,7 @@ li.sub-menu--item.nav-item-has-children i {
   min-width: 129px;
   height: 45px;
   box-shadow: 0 16px 36px rgba(241, 139, 98, 0.3);
-  border-radius: 50px;
+  /*border-radius: 50px;*/
   background-color: #FF7C24;
   color: #fff;
   font-size: 15px;
@@ -26692,7 +26692,7 @@ button:hover {
   background-size: cover;
 }
 .obg{
-  background-image: url("../image/obg.png");
+  /*background-image: url("../image/obg.png");*/
 
   /* Full height */
   height: 100%;
@@ -26701,6 +26701,8 @@ button:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background: rgb(90,17,94);
+background: linear-gradient(90deg, rgba(90,17,94,1) 0%, rgba(40,3,43,1) 100%);
 }
 .ob{
   padding: 100px;
@@ -26712,14 +26714,15 @@ button:hover {
 .normbtn3 {
   min-width: 200px;
   height: 50px;
-  border-radius: 60px;
-  border: 1px solid #FFF;
+  /*border-radius: 60px;*/
+  /*border: 1px solid #FFF;*/
   color: #FFF !important;
   font-size: 17px;
   font-weight: 400;
   font-style: normal;
   letter-spacing: normal;
   margin-top: 22px;
+  background: #59255c;
 }
 .no-pad{
   padding: 0 !important;
@@ -26769,7 +26772,7 @@ button:hover {
 .btn-r{
   min-width: 200px;
   height: 50px;
-  border-radius: 60px;
+  /*border-radius: 60px;*/
   border: 1px solid #FF7C24;
   color: #FF7C24 !important;
   font-size: 17px;
@@ -26878,6 +26881,12 @@ button:hover {
 border: 1px solid #e3e3e3;
 border-radius: 15px;
 }
+.hsr{
+  border-radius: 15px 0px 0px 15px;
+}
+.hsr2{
+  border-radius: 0px 15px 15px 0px;
+}
 
 @media (max-width: 1200px) {
   .rd-txt{
@@ -26885,5 +26894,13 @@ border-radius: 15px;
     margin-top: 30px;
     display: block;
     float: none;
+  }
+}
+@media (max-width: 1000px) {
+  .hsr{
+    border-radius: 15px 15px 0px 0px;
+  }
+  .hsr2{
+    border-radius: 0px 0px 15px 15px;
   }
 }
