@@ -140,8 +140,62 @@ body {
        url('../fonts/poppins-v15-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/poppins-v15-latin-900.svg#Poppins') format('svg'); /* Legacy iOS */
 }
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/spaceGrotesk/SpaceGrotesk-Light.woff2') format('woff2'),
+      url('../fonts/spaceGrotesk/SpaceGrotesk-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/spaceGrotesk/SpaceGrotesk-Bold.woff2') format('woff2'),
+      url('../fonts/spaceGrotesk/SpaceGrotesk-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/spaceGrotesk/SpaceGrotesk-Medium.woff2') format('woff2'),
+      url('../fonts/spaceGrotesk/SpaceGrotesk-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/spaceGrotesk/SpaceGrotesk-Regular.woff2') format('woff2'),
+      url('../fonts/spaceGrotesk/SpaceGrotesk-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/spaceGrotesk/SpaceGrotesk-SemiBold.woff2') format('woff2'),
+      url('../fonts/spaceGrotesk/SpaceGrotesk-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/spaceGrotesk/SpaceGrotesk-Light.woff2') format('woff2'),
+      url('../fonts/spaceGrotesk/SpaceGrotesk-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 body{
-  font-family: 'Poppins' !important;
+  font-family: 'Space Grotesk' !important;
 }
 p {
   color: var(--color-texts);
