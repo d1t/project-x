@@ -30658,5 +30658,47 @@ tr.hide-table-padding td {
     font-weight: lighter;
     font-size: 16px;
  }
-
+ .crds-2{
+    background: #FFF;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.crds-3{
+    background: #FF7C240D;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.crds-2 div{
+    margin-bottom: 10px;
+}
+.lst-txt tr{
+    border-top: 0 !important;
+}
+.lst-txt tr td{
+    border-top: 0 !important;
+}
+.lst-txt tr td{
+    font-size: 20px !important;
+}
+.nobgHead tr th{
+    background: none !important;
+    border: none !important;
+}
+.nobgHead tr th:nth-child(1){
+    font-size: 14px;
+}
+.nobgHead tr th a{
+    color: #FF7C24 !important;
+}
+.tagsR{
+    display: inline-block;
+    width: auto;
+    padding: 5px 10px;
+    color: #FFF;
+    background: #FF264D;
+    border-radius: 15px;
+    font-size: 10px;
+}
  
