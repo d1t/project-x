@@ -26841,6 +26841,44 @@ button:hover {
 .m-auto{
   margin: auto;
 }
+.pt2{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.bx-im img{
+  border-radius: 15px 15px 0px 0px;
+}
+.box-txt-3{
+  font-size: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top:1px solid #e3e3e3;
+}
+.tmz{
+  color:#FF7C24;
+  padding: 15px;
+}
+.dyz{
+  color: #303030;
+  padding: 15px;
+}
+.no-lnk{
+  text-decoration: none;
+  color: inherit;
+}
+.no-lnk:hover{
+  color: #FF7C24;
+}
+.bg-white{
+  background: #FFF;
+  padding: 50px;
+  box-shadow: 1px 1px 14px 3px rgba(224,224,224,0.75);
+-webkit-box-shadow: 1px 1px 14px 3px rgba(224,224,224,0.75);
+-moz-box-shadow: 1px 1px 14px 3px rgba(224,224,224,0.75);
+border: 1px solid #e3e3e3;
+border-radius: 15px;
+}
+
 @media (max-width: 1200px) {
   .rd-txt{
     margin: auto;
