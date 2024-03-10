@@ -30836,4 +30836,6 @@ input[type="checkbox"] {
 .lbs{
     background: #FF7C240D;
     padding: 20px;
+    border: 1px solid #f0e0d4;
+    border-radius: 15px;
 }
