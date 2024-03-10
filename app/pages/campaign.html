@@ -301,10 +301,10 @@
                  <img src="../assets/img/Filter.svg" width="20"> &nbsp;&nbsp; Filter
                 </button>
                 <div class="dropdown-menu dropdown-menu-right dpS">
-                 <span>  <label> New  </label>  <input type="checkbox" class="" name=""> </span>
-                 <span>  <label> Angel  </label>  <input type="checkbox" class="" name=""> </span>
-                 <span>  <label> Pre Seed  </label>  <input type="checkbox" class="" name=""> </span>
-                 <span>  <label> Location  </label>  <input type="checkbox" class="" name=""> </span>
+                  <label class="dropdown-item"><span>   New </span>  <input type="checkbox" class="" name=""> </label> 
+                  <label class="dropdown-item"><span>   Angel </span>  <input type="checkbox" class="" name=""> </label> 
+                  <label class="dropdown-item"><span>   Pre Seed </span>  <input type="checkbox" class="" name=""> </label> 
+                  <label class="dropdown-item"><span>   Location </span>  <input type="checkbox" class="" name=""> </label> 
                   <!--<button class="dropdown-item" type="button">Action</button>
                   <button class="dropdown-item" type="button">Another action</button>
                   <button class="dropdown-item" type="button">Something else here</button>-->
@@ -447,6 +447,13 @@
   <script src="../assets/vendor/chart.js/dist/Chart.extension.js"></script>
   <!-- Argon JS -->
   <script src="../assets/js/figg.js"></script>
+  <script>
+    $('input, label').on('click', function(e){
+    e.stopPropagation();
+});
+  </script>
+
+
 </body>
 
 </html>
