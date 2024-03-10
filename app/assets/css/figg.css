@@ -30756,7 +30756,14 @@ tr.hide-table-padding td {
 .ctxt span.tgs{
     display: block;
     padding: 10px 15px;
-    border-radius: 20px;
+    border-radius: 50px;
+    text-align: center;
+    width: 150px;
+}
+.tgs{
+    display: block;
+    padding: 10px 15px;
+    border-radius: 50px;
     text-align: center;
     width: 150px;
 }
@@ -30807,5 +30814,26 @@ input[type="checkbox"] {
     accent-color: #30303066;
     border: 2px solid #30303066;
 }
-  
-      
+.cusBadge2{
+    border: 1px solid #30303066;
+    background: none !important;
+    margin-top: 20px;
+}
+.brdright{
+    border-right: 1px dotted #CCC;
+}
+.rm-marg{
+    margin-top: 0px;
+}
+.topHeader{
+    padding-bottom: 20px;
+    border-bottom:1px solid #e5e5e5;
+}
+.c-Content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}  
+.lbs{
+    background: #FF7C240D;
+    padding: 20px;
+}
