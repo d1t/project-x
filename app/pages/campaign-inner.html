@@ -330,7 +330,7 @@
              <div class="col-sm-12 col-md-4 col-xl-4 d-non">
               <div class="d-flex flex-row">
                 <div class="p-2">
-                  <h4> <small> Documents <img src="../assets/img/download-dr.svg" width="15"> </small> <br> 03 </h4>
+                  <h4> <small> Documents  <a href="#" data-toggle="modal" data-target="#exampleModal"> <img src="../assets/img/download-dr.svg" width="15"> </a> </small> <br> 03 </h4>
                 </div>
                 <div class="p-2 text-center">
                   <button type="button" class="btn btn-primary custbtn rm-marg" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Invest</button> <br>
@@ -345,6 +345,66 @@
            </div>
         </div>
         <!--CampaignHeader End-->
+
+        <!--Modal for Documents-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><img src="../assets/img/Info-Square.svg" width="30"> Documents </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="table-responsive stab">
+                  <!-- Projects table -->
+                  <table class="table align-items-center table-flush">
+                    <tbody>
+                      <tr>
+                        <td> <img src="../assets/img/docs.svg" width="20"> </td>
+                        <td>
+                          <span class="doctxt">  Acuerdo_entre_trabajempr.. .pdf </span> <br>
+                          <small> 4 Pages </small>
+                        </td>
+                        <td>
+                          <a href="#" class="dlink"><i class="fa fa-download"></i> </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td> <img src="../assets/img/docs.svg" width="20"> </td>
+                        <td>
+                          <span class="doctxt">  Acuerdo_entre_trabajempr.. .pdf </span> <br>
+                          <small> 4 Pages </small>
+                        </td>
+                        <td>
+                          <a href="#" class="dlink"><i class="fa fa-download"></i> </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td> <img src="../assets/img/docs.svg" width="20"> </td>
+                        <td>
+                          <span class="doctxt">  Acuerdo_entre_trabajempr.. .pdf </span> <br>
+                          <small> 4 Pages </small>
+                        </td>
+                        <td>
+                          <a href="#" class="dlink"><i class="fa fa-download"></i> </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="text-center">
+                  <a href="#" class="dlink">Download all &nbsp;&nbsp;<i class="fa fa-download"></i> </a>
+                </div>
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <!--Modal For Documents End-->
 
         <div class="c-Content">
            <div class="row">
@@ -682,14 +742,52 @@
 
       <div class="modal-content hideMe" id="Summary">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Investment Amount</h5>
+          <h5 class="modal-title" id="exampleModalLongTitle"><img src="../assets/img/invs.svg" width="30"> Investment Summary</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          <div class="centA">
-            ...
+          <div class="centC">
+            <div class="text-center tpm"><img src="../assets/img/figg-log.png" width="80"> </div>
+            <div class="table-responsive stab">
+              <!-- Projects table -->
+              <table class="table align-items-center table-flush">
+               
+                <tbody>
+                  <tr>
+                    <td>
+                      Investment
+                    </td>
+                    <td>
+                      $200.00
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Investment fee <br>
+                      <small> A 1.5% investment fee will be applied per transaction </small>
+                    </td>
+                    <td>
+                      $3.00
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Total  <br> <small> Share Type </small>
+                    </td>
+                    <td>
+                        N117,740.00 <br>
+                      <small>Ordinary Shares (Nominee) </small>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="form-group mt-2">
+              <button type="button" id="bCont" class="btn btn-primary custbtn rm-marg smBtn2" class="btn btn-primary">Make Payment</button>
+              </div>
             </div>
         </div>
         <!--<div class="modal-footer">

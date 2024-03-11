@@ -30969,6 +30969,11 @@ a.slink{
     max-width: 100%;
     margin: auto;
 }
+.centC{
+    text-align: ;
+    max-width: 90%;
+    margin: auto;
+}
 .price-input-container {
     position: relative;
     margin-bottom: 30px;
@@ -31011,6 +31016,11 @@ a.slink{
     margin: auto;
     display: block;
   }
+  .smBtn2{
+    width: 180px;
+    margin: auto;
+    display: block;
+  }
   .csel{
     border-color: #ecebeb;
     padding-left: 10px;
@@ -31019,6 +31029,25 @@ a.slink{
   .fbtm ul li{
     font-size: 12px;
     color: #30303066;
+  }
+  .tpm img{
+    border-radius: 50%;
+  }
+  .stab tbody tr td{
+    font-size: 18px;
+    color: #303030;
+  }
+  .stab tbody tr td small{
+    font-size: 12px;
+    color: #8D8D8D;
+  }
+  a.dlink{
+    color: #0066FF;
+    font-weight: normal;
+  }
+  .doctxt{
+    font-size: 14px;
+    font-weight: bold;
   }
 @media (max-width: 1200px) {
     .d-non{
