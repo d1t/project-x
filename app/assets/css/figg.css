@@ -20118,8 +20118,8 @@ a.btn-icon-only
     height: calc(1.5em + 1.25rem + 5px); 
 
     transition: all .15s ease-in-out;
-    background: #F9F9F9;
-    border-color: #f9f5f5;
+    background: none;
+    border-color: #ecebeb;
 }
 @media (prefers-reduced-motion: reduce)
 {
@@ -30907,13 +30907,15 @@ input[type="checkbox"] {
 }
 .noBG{
     background: none !important;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     border: 1px solid #e8e8e8;
     box-shadow: none !important;
+    border-radius: 15px !important;
 }
 .bHead{
-    border-radius: 15px;
+    
     background: none;
+
 }
 .b-info{
     font-size: 14px;
@@ -30923,6 +30925,8 @@ input[type="checkbox"] {
 .accb{
     font-size: 14px;
     color: #30303066;
+    border-bottom:1px solid #e8e8e8;
+    padding: 10px 20px;
 }
 .hy-txt{
     color: #30303066;
@@ -30952,6 +30956,62 @@ a.slink{
 .showMob{
     display: none;
 }
+.hideMe{
+    display: none;
+}
+.centA{
+    text-align: ;
+    max-width: 400px;
+    margin: auto;
+}
+.price-input-container {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .price-input-container .price-input {
+    position: relative;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    font-size: 24pt;
+    color: #8D8D8D;
+    /*background-color: #000;
+    border-color: teal;*/
+    letter-spacing: 4px;
+    background: none;
+    border: none;
+    margin: auto;
+  }
+  .price-input-container .price-input:focus {
+    color: #8D8D8D;
+    /*background-color: #000;*/
+    /*border-color: crimson;*/
+    outline-style: none;
+    box-shadow: none;
+  }
+  .price-input-container::before {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    height: 70px;
+    width: 50px;
+    line-height: 70px;
+    content: '$';
+    color: #000;
+    font-size: 40pt;
+    text-align: center;
+  }
+  .smBtn{
+    width: 150px;
+    margin: auto;
+    display: block;
+  }
+  .csel{
+    border-color: #ecebeb;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
 @media (max-width: 1200px) {
     .d-non{
         display: none;

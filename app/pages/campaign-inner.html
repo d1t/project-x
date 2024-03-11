@@ -333,7 +333,7 @@
                   <h4> <small> Documents <img src="../assets/img/download-dr.svg" width="15"> </small> <br> 03 </h4>
                 </div>
                 <div class="p-2 text-center">
-                  <button type="button" class="btn btn-primary custbtn rm-marg">Invest</button> <br>
+                  <button type="button" class="btn btn-primary custbtn rm-marg" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Invest</button> <br>
                   <small> See investment Risk Warning <img src="../assets/img/Info-Square.svg" width="10"> </small>
                 </div>
                 <div class="p-2 text-right">
@@ -458,7 +458,7 @@
                   <textarea placeholder="Ask us a question"></textarea>
                 </div>
               </div>
-              <button type="button" class="btn btn-primary custbtn rm-marg showMob">Invest</button>
+              <button type="button" class="btn btn-primary custbtn rm-marg showMob" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Invest</button>
              </div>
 
 
@@ -561,7 +561,94 @@
 
       
 
-  
+  <!-- Modals -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content" id="bAmount">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"><img src="../assets/img/d-sign.svg" width="30"> Investment Amount</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="centA">
+            <h6 class="text-center"> Enter Amount </h6>
+            <div class="price-input-container">
+             <input type="text" class="form-control price-input" value="" placeholder="0.00">
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <label for="inputState">Country</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-12">
+                <label for="inputNumber">Mobile Number</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <select class="csel">
+                      <option selected>234</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <input type="text" class="form-control" id="validationNumber" placeholder="Enter Mobile Number" aria-describedby="inputGroupPrepend2" required>
+                </div>
+              </div>
+
+              <div class="form-group col-md-12">
+                <button type="button" id="fCont" class="btn btn-primary custbtn rm-marg smBtn" class="btn btn-primary">Continue</button>
+                </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!--<div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>-->
+      </div>
+
+      <div class="modal-content hideMe" id="billingAd">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Investment Amount</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         ...
+        </div>
+        <!--<div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>-->
+      </div>
+
+      <div class="modal-content hideMe" id="Summary">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Investment Amount</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <!--<div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>-->
+      </div>
+
+    </div>
+  </div>
+  <!-- Modals End -->
 
 
         <footer class="footer pt-0">
@@ -612,6 +699,44 @@
   <script src="../assets/vendor/chart.js/dist/Chart.extension.js"></script>
   <!-- Argon JS -->
   <script src="../assets/js/figg.js"></script>
+
+  <script>
+    $(document).ready(function () {
+    $("#fCont").click(function () {
+        $("#bAmount").hide();
+        $("#billingAd").show();
+    });
+});
+  </script>
+
+
+  <script>
+    $('.price-input').on('keyup', function(){
+       
+       var price = $(this).val().replace(/[^\d]/g,'');    
+       var pre, dec;
+       var delimiter = '.';
+       
+       var result = price;
+  
+       if (price.length > 3 && price.charAt(0) == '0') {
+            price = price.substr(1);
+       }
+       
+       if (price.length > 2) {
+            pre = price.slice(0,-2);
+            dec = price.substr( (price.length-2), 2);
+            result = pre + delimiter + dec;
+       }
+       
+       $(this).val('').val(result);
+       
+  });
+  
+  $('.price-input').on('blur', function(){
+       console.log( 'Your price is: ' + $(this).val() + ' $' );
+  });
+  </script>
 </body>
 
 </html>
