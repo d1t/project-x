@@ -30871,8 +30871,11 @@ input[type="checkbox"] {
 .hy ul li:first-child{
     padding-top: 0px;
 }
+.bigtext{
+    position: relative;
+}
 .bigtext textarea{
-    resize: ;
+    resize: none;
     height: 100px;
     background: #FF7C240D;
     border: 1px solid #f0e0d4;
@@ -30880,11 +30883,12 @@ input[type="checkbox"] {
     width: 100%;
     border-radius: 20px;
     padding: 20px;
+    display: block;
 }
 .snd{
     position: absolute;
-    bottom: 40px;
-    right: 30px;
+    bottom: 20px;
+    right: 20px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -30905,6 +30909,7 @@ input[type="checkbox"] {
     background: none !important;
     margin-bottom: 5px;
     border: 1px solid #e8e8e8;
+    box-shadow: none !important;
 }
 .bHead{
     border-radius: 15px;
@@ -30927,4 +30932,32 @@ input[type="checkbox"] {
 }
 .pretxt h4{
     margin-bottom: 0px;
+}
+a.slink{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    color: #303030;
+}
+.tm ul{
+    margin: 0px;
+    padding: 0px;
+}
+.tm ul li{
+    list-style: none;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.showMob{
+    display: none;
+}
+@media (max-width: 1200px) {
+    .d-non{
+        display: none;
+    }
+    .showMob{
+        display: block;
+        margin-bottom: 20px;
+    }
 }
