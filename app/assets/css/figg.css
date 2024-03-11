@@ -31051,24 +31051,84 @@ a.slink{
     font-weight: bold;
   }
   .rCards{
-    float: right;
+    margin-left: auto;
+    order: 2;
     top: 0px;
-    width: 150px;
+    width:300px;
 }
   .gBGs{
     background: #F4FFF9;
     width: 310px;
-    padding: 15px;
+    padding: 10px;
     float: right;
+    border-radius: 15px;
   }
+  
   .custbs{
-    display: block !important;
     width: 100% !important;
-    height: 100px;
+  
   }
   .custbs li{
     display: block !important;
     float: left !important;
+  }
+  .cBGs{
+    background: #FF7C240D;
+    width: 310px;
+    padding: 10px;
+    float: right;
+    border-radius: 15px;
+    display: none;
+  }
+  .gBGs ul{
+    list-style: none;
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+  }
+  .gBGs ul li{
+    display: block;
+    float: left;
+  }
+  .gBGs ul li:first-child{
+    margin-right: 10px;
+  }
+  .cBGs ul{
+    list-style: none;
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+  }
+  .cBGs ul li{
+    display: block;
+    float: left;
+  }
+  .cBGs ul li:first-child{
+    margin-right: 10px;
+  }
+  .tpA h2 small{
+    color:#30303066;
+  }
+  .ups{
+    margin: 0px;
+    padding: 0px;
+  }
+  .ups li{
+    list-style: none;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e6eaf4;
+  }
+  .sm-txts{
+    color:#30303066;
+    display: block;
+  }
+  .tmtx{
+    color:#30303066;
+    font-size: 12px;
+    display: block;
+    margin-top: 10px;
   }
 @media (max-width: 1200px) {
     .d-non{
