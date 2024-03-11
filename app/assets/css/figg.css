@@ -30786,6 +30786,7 @@ tr.hide-table-padding td {
     width: 150px;
     text-align: right;
 }
+
 .nbtn{
     border: none;
     background: none;
@@ -31048,6 +31049,26 @@ a.slink{
   .doctxt{
     font-size: 14px;
     font-weight: bold;
+  }
+  .rCards{
+    float: right;
+    top: 0px;
+    width: 150px;
+}
+  .gBGs{
+    background: #F4FFF9;
+    width: 310px;
+    padding: 15px;
+    float: right;
+  }
+  .custbs{
+    display: block !important;
+    width: 100% !important;
+    height: 100px;
+  }
+  .custbs li{
+    display: block !important;
+    float: left !important;
   }
 @media (max-width: 1200px) {
     .d-non{
