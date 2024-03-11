@@ -616,13 +616,63 @@
 
       <div class="modal-content hideMe" id="billingAd">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Investment Amount</h5>
+          <h5 class="modal-title" id="exampleModalLongTitle"><img src="../assets/img/MapPinLine.svg" width="30"> Billing Address</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-         ...
+          <div class="centB">
+            <div class="form-row">
+              <div class="col-md-12 mb-3">
+                <label for="validationDefault01">Post/Zip Code</label>
+                <input type="text" class="form-control" id="validationDefault01" placeholder="Post/Zip Code" value="" required>
+              </div>
+              <div class="col-md-12 mb-3">
+                <label for="validationDefault01">Address Line 1</label>
+                <input type="text" class="form-control" id="validationDefault01" placeholder="Enter Address Line 1" value="" required>
+              </div>
+              <div class="col-md-12 mb-3">
+                <label for="validationDefault01">Address Line 2</label>
+                <input type="text" class="form-control" id="validationDefault01" placeholder="Enter Address Line 2" value="" required>
+              </div>
+              <div class="col-md-12 mb-3">
+                <label for="validationDefault01">Country</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-md-12 mb-3">
+                <label for="validationDefault01">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="fbtm">
+              <ul>
+                <li>  I understand that I can cancel my investment up until February 12th, 2022 (48 hours prior to the deal deadline) </li>
+                <li>I consent to electronic delivery of all documents, notices and agreements as related to my investment</li>
+                  <li>I understand this investment is risky and that I shouldn't invest, unless i can afford to lose all invested funds</li>
+                    <li>I understand my investment won't be transferable for 12 months and may not have a market for resale</li>
+                      <li>I understand that there is no guarantee of a relationship between Figg and Tendo post-offering</li>
+                        <li>I understand that investing this amount into several deals would better diversify my risk</li>
+                          <li>I understand I am responsible for all fees and charges associated with the use of my payment method</li>
+              </ul>
+            </div>
+
+            <div class="text-center">
+              <input type="checkbox" class=""> I agree to the terms highlighted above, as well as Figg’s <a href="#">Terms of Service</a> &  <a href="#">Privacy Policy</a>
+            </div>
+
+            <div class="form-group mt-2">
+              <button type="button" id="bCont" class="btn btn-primary custbtn rm-marg smBtn" class="btn btn-primary">Continue</button>
+              </div>
+
+            </div>
         </div>
         <!--<div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -638,7 +688,9 @@
           </button>
         </div>
         <div class="modal-body">
-          ...
+          <div class="centA">
+            ...
+            </div>
         </div>
         <!--<div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -705,6 +757,10 @@
     $("#fCont").click(function () {
         $("#bAmount").hide();
         $("#billingAd").show();
+    });
+    $("#bCont").click(function () {
+        $("#billingAd").hide();
+        $("#Summary").show();
     });
 });
   </script>

@@ -30964,6 +30964,11 @@ a.slink{
     max-width: 400px;
     margin: auto;
 }
+.centB{
+    text-align: ;
+    max-width: 100%;
+    margin: auto;
+}
 .price-input-container {
     position: relative;
     margin-bottom: 30px;
@@ -31011,7 +31016,10 @@ a.slink{
     padding-left: 10px;
     padding-right: 10px;
   }
-  
+  .fbtm ul li{
+    font-size: 12px;
+    color: #30303066;
+  }
 @media (max-width: 1200px) {
     .d-non{
         display: none;
