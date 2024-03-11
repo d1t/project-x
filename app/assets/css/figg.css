@@ -19,7 +19,7 @@ Description:    Figg Application...
     --cyan: #2bffc6;
     --white: #fff;
     --gray: #8898aa;
-    --gray-dark: #32325d;
+    --gray-dark: #303030;
     --light: #ced4da;
     --lighter: #e9ecef;
     --primary: f#38063C;
@@ -148,7 +148,7 @@ body
 
     text-align: left;
 
-    color: #525f7f;
+    color: #303030;
     background-color: #F8F8F8;
 }
 
@@ -561,7 +561,7 @@ h6,
 
     margin-bottom: .5rem;
 
-    color: #32325d;
+    color: #303030;
 }
 
 h1,
@@ -8548,7 +8548,7 @@ a.close.disabled
     margin-bottom: 0;
     padding: .5rem .95rem;
 
-    color: #32325d;
+    color: #303030;
     border-bottom: 1px solid #f2f2f2;
     border-top-left-radius: calc(.4375rem - 1px);
     border-top-right-radius: calc(.4375rem - 1px); 
@@ -18352,7 +18352,7 @@ a.text-darker:focus
 }
 .badge-dot strong
 {
-    color: #32325d;
+    color: #303030;
 }
 .badge-dot i
 {
@@ -18917,7 +18917,7 @@ a.btn-icon-only
     vertical-align: middle;
     text-decoration: none;
 
-    color: #32325d;
+    color: #303030;
     border: 0;
     border-radius: .375rem;
     background-color: #f6f9fc;
@@ -20672,7 +20672,7 @@ textarea[resize='horizontal']
 {
     font-size: 1rem;
 
-    color: #32325d;
+    color: #303030;
 }
 .list-group-heading > small
 {
@@ -21074,7 +21074,7 @@ textarea[resize='horizontal']
 
 .navbar-horizontal .navbar-light .navbar-brand
 {
-    color: #32325d;
+    color: #303030;
 }
 
 .navbar-horizontal .navbar-nav .nav-item .media:not(:last-child)
@@ -24206,7 +24206,7 @@ button.bg-gray:focus
 
 .bg-gray-dark
 {
-    background-color: #32325d !important;
+    background-color: #303030 !important;
 }
 
 a.bg-gray-dark:hover,
@@ -24365,7 +24365,7 @@ button.bg-lighter:focus
 
 .bg-gradient-gray-dark
 {
-    background: linear-gradient(87deg, #32325d 0, #44325d 100%) !important;
+    background: linear-gradient(87deg, #303030 0, #44325d 100%) !important;
 }
 
 .bg-gradient-light
@@ -25770,7 +25770,7 @@ a.text-gray:focus
 
 .text-gray-dark
 {
-    color: #32325d !important;
+    color: #303030 !important;
 }
 
 a.text-gray-dark:hover,
@@ -30838,4 +30838,93 @@ input[type="checkbox"] {
     padding: 20px;
     border: 1px solid #f0e0d4;
     border-radius: 15px;
+}
+.rsv a{
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    
+}
+.rsv a h4{
+    color: #FF7C24 !important;
+}
+.mHead{
+    font-size: 16px;
+    color: #CCC;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hy{
+    margin-bottom: 20px;
+}
+.hy ul{
+    margin: 0px;
+    padding: 0px;
+}
+.hy ul li{
+    display: block;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 20px;
+}
+.hy ul li:first-child{
+    padding-top: 0px;
+}
+.bigtext textarea{
+    resize: ;
+    height: 100px;
+    background: #FF7C240D;
+    border: 1px solid #f0e0d4;
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+}
+.snd{
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 3px;
+    text-align: center;
+    background: #FF7C24;
+    border: none;
+    font-size: 20px;
+    color: #FFF;
+}
+.c-Con{
+    margin-top: 20px;
+}
+.acc{
+    margin-top: 20px;
+}
+.noBG{
+    background: none !important;
+    margin-bottom: 5px;
+    border: 1px solid #e8e8e8;
+}
+.bHead{
+    border-radius: 15px;
+    background: none;
+}
+.b-info{
+    font-size: 14px;
+    color: #30303066;
+    display: block;
+}
+.accb{
+    font-size: 14px;
+    color: #30303066;
+}
+.hy-txt{
+    color: #30303066;
+}
+.pretxt{
+    margin-top: 20px;
+}
+.pretxt h4{
+    margin-bottom: 0px;
 }
