@@ -23595,12 +23595,13 @@ textarea[resize='horizontal']
 {
     overflow: hidden;
 
-    height: 8px;
+    height: 10px;
     margin-bottom: 1rem;
 
     border-radius: .25rem;
-    background-color: #e9ecef;
+    background-color: #30303017;
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    box-shadow: none !important;
 }
 .progress .sr-only
 {
@@ -23887,11 +23888,14 @@ textarea[resize='horizontal']
 {
     font-weight: 600;
 }
+.table td{
+    align-content: center;
+}
 
 .table td .progress
 {
     width: 120px;
-    height: 3px;
+    height: 10px;
     margin: 0;
 }
 
@@ -30016,7 +30020,7 @@ input.datetimepicker[data-color='yellow'] + .bootstrap-datetimepicker-widget.dro
     color: #303030;
 }
 .custum-pbar{
-    background: #00FF80;
+    background: #00C77F;
   }
   .padtp{
       padding-top: 10px;
@@ -30873,7 +30877,7 @@ input[type="checkbox"] {
 .cusBadge2{
     border: 1px solid #30303066;
     background: none !important;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .brdright{
     border-right: 1px dotted #CCC;
@@ -31187,6 +31191,39 @@ a.slink{
   }
   .pts tbody tr td h4 small{
     color: #30303066;
+  }
+  .bFlag{
+    display: inline-block;
+    width: 20px;
+    margin-top: -5px;
+  }
+  .chover:hover{
+    background: #FF7C240D;
+    display: block;
+    border-radius: 20px;
+  }
+  .ct{
+    font-size: 16px;
+  }
+  .mlink{
+    display: block;
+  }
+  .abs{
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  .tpA{
+    align-items: center;
+  }
+  .pts tr{
+    cursor: pointer;
+  }
+  .pts tr:hover{
+    background:  #FF7C240D;
   }
 @media (max-width: 1200px) {
     .d-non{
