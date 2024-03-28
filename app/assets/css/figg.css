@@ -30777,6 +30777,7 @@ tr.hide-table-padding td {
     color: #303030 !important;
     padding-left: 10px;
     padding-right: 10px;
+    font-weight: 800;
 }
 .cusTabs li.item-right{
     float: right;
