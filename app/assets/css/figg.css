@@ -31243,6 +31243,10 @@ a.slink{
   .mrs-2{
     margin-right: 40px !important;
   }
+  .inB{
+    display: inline-flex;
+    width: 30px;
+  }
 @media (max-width: 1200px) {
     .d-non{
         display: none;
