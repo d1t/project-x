@@ -31238,6 +31238,9 @@ a.slink{
   .mrs-3{
     margin-right: 80px !important;
   }
+  .mrs-2{
+    margin-right: 40px !important;
+  }
 @media (max-width: 1200px) {
     .d-non{
         display: none;
