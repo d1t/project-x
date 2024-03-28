@@ -30837,6 +30837,7 @@ tr.hide-table-padding td {
 .nowhitebg{
     background: none !important;
     box-shadow: none !important;
+    border: none !important;
 }
 .filters{
     position: absolute;
