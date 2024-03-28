@@ -19019,8 +19019,8 @@ a.btn-icon-only
 {
     margin-bottom: 30px;
 
-    border: 0; 
-    box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15);
+    border: 2px solid #3030300D; 
+    /*box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15);*/
 }
 
 .card-translucent
@@ -30773,7 +30773,7 @@ tr.hide-table-padding td {
 }
 .cusTabs li a.nav-link.active{
     background: #FF7C240D;
-    border-radius: 10px;
+    border-radius: 20px;
     color: #303030 !important;
     padding-left: 10px;
     padding-right: 10px;
@@ -31117,7 +31117,7 @@ a.slink{
 }
   .gBGs{
     background: #F4FFF9;
-    width: 310px;
+    min-width: 100px;
     padding: 10px;
     float: right;
     border-radius: 15px;
@@ -31130,10 +31130,11 @@ a.slink{
   .custbs li{
     display: block !important;
     float: left !important;
+    margin-left: 10px;
   }
   .cBGs{
     background: #FF7C240D;
-    width: 310px;
+    min-width: 100px;
     padding: 10px;
     float: right;
     border-radius: 15px;
@@ -31224,6 +31225,18 @@ a.slink{
   }
   .pts tr:hover{
     background:  #FF7C240D;
+  }
+  .onact{
+    display: none;
+  }
+  .cusTabs li a.nav-link.active .inact{
+    display: none;
+  }
+  .cusTabs li a.nav-link.active .onact{
+    display: inline-block;
+  }
+  .mrs-3{
+    margin-right: 80px !important;
   }
 @media (max-width: 1200px) {
     .d-non{
