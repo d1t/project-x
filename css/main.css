@@ -26760,6 +26760,19 @@ button:hover {
   background: rgb(90,17,94);
 background: linear-gradient(90deg, rgba(90,17,94,1) 0%, rgba(40,3,43,1) 100%);
 }
+.obg-2{
+  /*background-image: url("../image/obg.png");*/
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: rgb(90,17,94);
+  background: rgb(255,68,36);
+  background: linear-gradient(90deg, rgba(255,68,36,1) 0%, rgba(89,16,56,1) 23%, rgba(56,6,60,1) 42%, rgba(56,6,60,1) 100%);}
 .ob{
   padding: 100px;
   color: #FFF;
@@ -26972,6 +26985,102 @@ border-radius: 15px;
   width: auto;
   margin-top: 15px;
   
+}
+.lpd{
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+}
+.lpd .ob h2{
+  color: #FFF;
+}
+.srch{
+  width: 350px;
+  margin: auto;
+  position: relative;
+}
+.srch input{
+  padding: 10px 40px 10px 20px;
+  border-radius: 40px !important;
+  border: none !important;
+}
+.rds{
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  z-index: 9999;
+}
+.srds{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+  background-color: #FF4424;
+  color: #FFF;
+  border: none !important;
+}
+::placeholder {
+  color: #CCC !important;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: #CCC !important;
+}
+.brnd {
+  position: absolute;
+  bottom: 20px;
+  left:auto;
+  width: 80%;
+}
+.brnd-inner{
+  color: #9f86a0;
+ 
+  text-align: center;
+}
+.socs1 {
+  width: 150px;
+  position: absolute;
+  bottom: 0px;
+  left: 10%;
+}
+.socs2{
+  width: 150px;
+  position: absolute;
+  bottom: 100px;
+  left: 5%;
+}
+.socs3{
+  width: 150px;
+  position: absolute;
+  top: 100px;
+  left: 3%;
+}
+.socs4{
+  width: 150px;
+  position: absolute;
+  top: 0px;
+  left:45%;
+}
+.socs5{
+  width: 150px;
+  position: absolute;
+  top: 60px;
+  right: 3%;
+}
+.socs7 {
+  width: 150px;
+  position: absolute;
+  bottom: 100px;
+  right:10%;
+}
+.socs6{
+  width: 150px;
+  position: absolute;
+  top: 150px;
+  right: 5%;
 }
 @media (max-width: 1200px) {
   .rd-txt{

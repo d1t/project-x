@@ -31247,6 +31247,7 @@ a.slink{
     display: inline-flex;
     width: 30px;
   }
+ 
 @media (max-width: 1200px) {
     .d-non{
         display: none;
