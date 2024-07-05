@@ -27082,6 +27082,25 @@ border-radius: 15px;
   top: 150px;
   right: 5%;
 }
+.nav-pills .nav-link{
+  border: none;
+  font-weight: 400;
+}
+.nav-pills span{
+  display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    margin-top: 20px;
+    padding-right: 4rem;
+    border-right: 2px dotted #CCC;
+    margin-right: 2rem;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+  background: none !important;
+  color: #FF4424;
+  outline: none !important;
+}
 @media (max-width: 1200px) {
   .rd-txt{
     margin: auto;
