@@ -27101,6 +27101,39 @@ border-radius: 15px;
   color: #FF4424;
   outline: none !important;
 }
+.topPin{
+  border-bottom: 1px solid #e3e3e3;
+}
+.topPin h4{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topPin h4 small{
+  font-size: 12px;
+  color: #9A9999;
+  
+}
+.badge-pill{
+  display: inline-block;
+  color: #000;
+  background: rgba(255, 87, 58, 0.05);
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-weight: lighter;
+
+} 
+.pinBottom{
+  padding: 0px 15px 20px 15px;
+}
+.comms{
+  color: #9A9999;
+}
+.upv{
+  display: inline-block;
+  padding: 10px 15px;
+  color: #00C77F;
+  border: 1px solid #00C77F;
+  border-radius: 30px;
+}
 @media (max-width: 1200px) {
   .rd-txt{
     margin: auto;
