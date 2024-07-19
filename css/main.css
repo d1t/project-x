@@ -27139,7 +27139,7 @@ border-radius: 15px;
   height: 45px;
   box-shadow: 0 16px 36px rgba(241, 139, 98, 0.3);
   /* border-radius: 50px; */
-  background-color: #FF7C24;
+  background-color: #FF4424;
   color: #fff;
   font-size: 15px;
   font-weight: 400;
@@ -27148,6 +27148,15 @@ border-radius: 15px;
   line-height: 26px;
   margin-right: 5px;
   margin-top: 5px !important;
+}
+.stpstxt{
+  color: rgba(255, 255, 255, 0.5);
+}
+.plane{
+  position: absolute;
+  right: -40px;
+  bottom: -50px;
+  width: 200px;
 }
 @media (max-width: 1200px) {
   .rd-txt{
