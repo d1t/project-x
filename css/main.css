@@ -27134,6 +27134,21 @@ border-radius: 15px;
   border: 1px solid #00C77F;
   border-radius: 30px;
 }
+.inlandbtn{
+  min-width: 129px;
+  height: 45px;
+  box-shadow: 0 16px 36px rgba(241, 139, 98, 0.3);
+  /* border-radius: 50px; */
+  background-color: #FF7C24;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 26px;
+  margin-right: 5px;
+  margin-top: 5px !important;
+}
 @media (max-width: 1200px) {
   .rd-txt{
     margin: auto;
