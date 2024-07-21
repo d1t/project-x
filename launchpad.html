@@ -489,7 +489,7 @@
                   you need to review existing products. By reviewing existing products, you earn XP points.  
                   An upvote is 1 Point, a comment is worth 2 Points. <br> 
                   <a href="#"> Learn more </a> <br>
-                  <a target="_blank" class="normbtn2 btn log-in-btn btn-style-02 focus-reset inlandbtn" href="#">
+                  <a href="#getStarted" id="clk" data-toggle="modal" data-target="#getStarted" class="normbtn2 btn log-in-btn btn-style-02 focus-reset inlandbtn" >
                     Get Started
                   </a>
                 </p>
@@ -694,7 +694,36 @@
     </div>
 
     
+    <!-- Modals Begin -->
+     <!-- Modal -->
+     <div class="modal fade" id="getStarted" tabindex="-1" aria-labelledby="getStartedLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header nobrd">
+            <!--<h1 class="modal-title fs-5" id="getStartedLabel">Modal title</h1>-->
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="image/floating-cards.png" width="300"> <br>
+            <h5> Launch your product and get quality reviews </h5> <br>
+            <p style="color: #1E1E1E80;"> 
+              Publish your product information for free when you earn an XP (point) by reviewing other launched products. <br>
+ A single upvote is <stron style="color: #FF7C24;"> 1 Point  </strong><br>
+A comment is <strong style="color: #FF7C24;">  2 Points </strong> <br>
+<a href="#"> Learn more </a>
+            </p> 
+
+          </div>
+          <!--<div class="modal-footer nobrd">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>-->
+        </div>
+      </div>
+    </div>
    
+    <!-- Modals End -->
+
     <!-- Footer Area -->
     <footer class="footer-area position-relative">
       <div class="container">
@@ -765,9 +794,10 @@
     </footer>
   </div>
   <!-- Vendor Scripts -->
-
+  <script src="js/bootstrap.js"></script>
   <script src="js/vendor.min.js"></script>
   <!-- Plugin's Scripts -->
+ 
   <script src="./plugins/aos/aos.min.js"></script>
   <script src="./plugins/slick/slick.min.js"></script>
   <script src="./plugins/menu/menu.js"></script>
@@ -857,6 +887,13 @@
   });
   </script>
 <!-- End of New Script -->
+<script>
+  $(document).ready(function(){
+      $("#clk").click(function(){
+          $("#getStarted").modal('show');
+      });
+  });
+</script>
 </body>
 
 </html>

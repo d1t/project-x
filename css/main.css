@@ -27158,6 +27158,9 @@ border-radius: 15px;
   bottom: -50px;
   width: 200px;
 }
+.nobrd{
+  border: none !important;
+}
 @media (max-width: 1200px) {
   .rd-txt{
     margin: auto;
