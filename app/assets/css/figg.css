@@ -31026,6 +31026,11 @@ a.slink{
     max-width: 400px;
     margin: auto;
 }
+.centD{
+    text-align: ;
+    max-width: 500px;
+    margin: auto;
+}
 .centB{
     text-align: ;
     max-width: 100%;
@@ -31546,6 +31551,14 @@ a.slink{
     color: #FF4424;
     text-align: center;
     padding: 10px;
+  }
+  .cCard{
+    width: 50px;
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 40px;
+    text-align: right;
   }
 @media (max-width: 1200px) {
     .d-non{
