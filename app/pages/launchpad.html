@@ -303,13 +303,13 @@
                   </ul>
                </div>
 
-               <div class="row cBGs" style="">
+               <!--<div class="row cBGs" style="">
                   <ul>
                     <li> <img src="../assets/img/dbill.svg" width="40"></li>
                     <li> <h2> $2,000.00 &nbsp;&nbsp; <small> $12,304 <img src="../assets/img/ArrowUp.svg" width="15"> </small></h2>
                       <h4 style="margin-bottom: 0px; color: #30303080;"> Total Investment </h4></li>
                   </ul>
-             </div>
+             </div>-->
             </div>
             
           </ul><!-- Tab panes -->
@@ -600,18 +600,146 @@
   </div>
   <!-- Modals End -->
 
-  <div class="banners">
-    <div class="row">
-       <div class="col-sm-6"> 
-        <h5> It's free</h5>
-        <h1> Launch your product <br> and get quality reviews</h1>
-       </div>
-       <div class="col-sm-6"> xxx </div>
+
+   <!-- Launch Modal -->
+   <div class="modal fade" id="launchModal" tabindex="-1" role="dialog" aria-labelledby="launchModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+   <div class="modal-content" id="launchM">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLongTitle">🤩 Launch your new product on figg</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="centB">
+            <div class="form-row">
+              <div class="col-md-12 mb-3">
+                <label for="">Product Name</label>
+                <input type="text" class="form-control" id="" placeholder="I.e Facebook App" value="" required>
+              </div>
+              <div class="col-md-12 mb-3">
+                <label for="">Description</label>
+                <textarea class="form-control" placeholder="Enter customer’s residential address"></textarea>
+              </div>
+              <div class="col-md-12 mb-3">
+                <label for="">Product Type</label>
+                <input type="text" class="form-control" id="" placeholder="Type in category and use comma after, each category i.e Fintech, Edtech, Health tech" value="" required>
+              </div>
+
+              <div class="col-md-12 mb-3">
+                <div class="emptyLab">
+                   <div class="text-center"> Selected categories </div>
+                </div>
+              </div>
+
+              <div class="col-md-12 mb-3">
+                <label for="">Product Billing</label>
+                <input type="text" class="form-control" id="" placeholder="Enter product  billing details" value="" required>
+              </div>
+              <div class="col-md-12 mb-3">
+                <label for="">Website link or Store link</label>
+                <input type="text" class="form-control" id="" placeholder="https://" value="" required>
+              </div>
+           
+            </div>
+    
+    
+            <div class="form-group mt-2">
+              <button type="button" id="bCont2" class="btn btn-primary custbtn rm-marg smBtn custbtnO custbtn2" class="btn btn-primary">Submit Product</button>
+              </div>
+    
+            </div>
+        </div> 
+        <div class="col-sm-4">
+          <div class="upload__box">
+            <div class="upload__btn-box">
+              <label class="upload__btn">
+                <h2>Add Image 
+                </h2>
+                <h4> JPG, PNG </h4>
+                <input type="file" multiple="" data-max_length="20" class="upload__inputfile">
+              </label>
+            </div>
+            <div class="stxt"> Set as featured Image <img src="../assets/img/CheckCircle-interact.png" width="20"> </div>
+            <div class="upload__img-wrap"></div>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+    <!--<div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Save changes</button>
+    </div>-->
+  </div>
+
+  <div class="modal-content hideMe" id="launchDone">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLongTitle"> Booom! it’s Launched! 🎉</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="centC">
+        <div class="text-center tpm"><img src="../assets/img/checked.png" width="100"> <br><br>
+         <h3> Boom!!!, <br>
+          submission Successful</h3> 
+          <p style="color: #9A9999;">
+            Your submission has been received, we <br>are currently reviewing it.
+          </p>
+        </div>
+
+        <div class="form-group mt-2">
+          <button type="button" id="bCont" class="btn btn-primary custbtn rm-marg smBtn custbtnO custbtn2" class="btn btn-primary">Done</button>
+          </div>
+        </div>
+    </div>
+    <!--<div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Save changes</button>
+    </div>-->
+  </div>
+
+  </div>
+  </div>
+  <!-- Launch Modal End -->
+
+<!-- Launch Payments -->
+<div class="modal fade" id="launchPayment" tabindex="-1" role="dialog" aria-labelledby="launchPaymentLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"> Payment </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><img src="../assets/img/cancel.svg" width="90"></span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+      </div>
+      
     </div>
   </div>
+</div>
+ <!-- Launch Payments Ends -->
 
           <div class="tab-content mt-20">
             <div class="tab-pane active" id="tabs-1s" role="tabpanel">
+              <div class="banners mb-3">
+                <div class="row">
+                   <div class="col-sm-6"> 
+                    <h5> It's free</h5>
+                    <h1> Launch your product <br> and get quality reviews</h1>
+                   </div>
+                   <div class="col-sm-6"> xxx </div>
+                </div>
+              </div> 
               <div class="row">
                  <div class="col-sm-12">
                    <div class="card" style="background: none; padding: 0 !important; border: none;">
@@ -819,7 +947,7 @@
                                     <h4 class="light"> @susie91  <span class="cms"> Commented on</span> <span class="cms2"> Alloy Mobile App</span> </h4>
                                     </li>
 
-                                    <li> <h4>  <img src="../assets/img/usp.png" width="20" class="imgC"> &nbsp;&nbsp; Oluwatoyin Ogundele&nbsp;  <img src="../../image/SealCheck.png" width="15"> </h4>
+                                    <li> <h4>  <img src="../assets/img/usp.png" width="20" class="imgC"> &nbsp;&nbsp; Zainab Adegoke&nbsp;  <img src="../../image/SealCheck.png" width="15"> </h4>
                                       <h4 class="light"> @susie91  <span class="cms"> Commented on</span> <span class="cms2"> Alloy Mobile App</span> </h4>
                                       </li>
                                </ul>
@@ -835,90 +963,15 @@
             <div class="tab-pane" id="tabs-2s" role="tabpanel">
               <div class="row">
                 <div class="col-sm-12">
-                  <div class="card p-4">
-                    <div class="table-responsive">
-                     <table class="table table-borderless pts">
-                      <tbxody>
-                        <!--<a href="#" class="mlink" data-toggle="modal" data-target="#myLargeModalLabel">-->
-                        <tr onclick="openModal()">
-                          <td> <img src="../assets/img/msoft.png" width="40"> &nbsp;&nbsp; Microsofts </td>
-                          <td>
-                            <span class="badge bg-light cusBadge2 text-dark">
-                              <img src="../assets/img/cif_ng.svg" class="bFlag" width="12">&nbsp;&nbsp; 
-                               <span class="ct"> NG </span> </span> 
-                          </td>
-                          <td>
-                            <h4> <small> Valuation Cap </small><br>$1,000,000 </h4>
-                          </td>
-                          <td>
-                            <h4> <small> Amount raised </small><br>$1,000,000 </h4>
-                          </td>
-                          <td>
-                            <h4> <small> %Discount </small> <br> %37 </h4>
-                            <div class="progress">
-                              <div data-percentage="0%" style="width: 50%;" class="progress-bar progress-bar-success custum-pbar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                           </div>
-                          </td>
-                          <td>
-                            <h4> <small> Total Invested </small><br>$7,482 </h4>
-                          </td>
-                          <td> <img src="../assets/img/Processing2.svg" width="30"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="../assets/img/ArrowUpRight.svg" width="20"> </td>
-                        </tr>
-                       
-                        <tr onclick="openModal()">
-                          <td> <img src="../assets/img/oppo.png" width="40"> &nbsp;&nbsp; Oppo</td>
-                          <td>
-                            <span class="badge bg-light cusBadge2 text-dark">
-                              <img src="../assets/img/cif_ng.svg" class="bFlag" width="12">&nbsp;&nbsp; 
-                               <span class="ct"> NG </span> </span> 
-                            
-                          </td>
-                          <td>
-                            <h4> <small> Valuation Cap </small><br>$1,000,000 </h4>
-                          </td>
-                          <td>
-                            <h4> <small> Amount raised </small><br>$1,000,000 </h4>
-                          </td>
-                          <td>
-                            <h4> <small> %Discount </small> <br> %37 </h4>
-                            <div class="progress">
-                              <div data-percentage="0%" style="width: 50%;" class="progress-bar progress-bar-success custum-pbar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                         
-                          </td>
-                          <td>
-                            <h4> <small> Total Invested </small><br>$7,482 </h4>
-                          </td>
-                          <td> <img src="../assets/img/Processing2.svg" width="30"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="../assets/img/ArrowUpRight.svg" width="20"> </td>
-                        </tr>
-
-                        <tr onclick="openModal()">
-                          <td> <img src="../assets/img/beat.png" width="40"> &nbsp;&nbsp; Beat </td>
-                          <td>
-                            <span class="badge bg-light cusBadge2 text-dark">
-                              <img src="../assets/img/cif_ng.svg" class="bFlag" width="12">&nbsp;&nbsp; 
-                               <span class="ct"> NG </span> </span> 
-                          
-                          </td>
-                          <td>
-                            <h4> <small> Valuation Cap </small><br>$1,000,000 </h4>
-                          </td>
-                          <td>
-                            <h4> <small> Amount raised </small><br>$1,000,000 </h4>
-                          </td>
-                          <td>
-                            <h4> <small> %Discount </small> <br> %37 </h4>
-                            <div class="progress">
-                              <div data-percentage="0%" style="width: 50%;" class="progress-bar progress-bar-success custum-pbar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                           </div>
-                          </td>
-                          <td>
-                            <h4> <small> Total Invested </small><br>$7,482 </h4>
-                          </td>
-                          <td> <img src="../assets/img/Processing2.svg" width="30"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="../assets/img/ArrowUpRight.svg" width="20"> </td>
-                        </tr>
-
-                      </tbody>
-                     </table>
+                  <div class="card p-4" style="background: none; padding: 0 !important; border: none;">
+                    <div class="text-center centerDiv">
+                        <img src="../assets/img/floating-plastic-cards.png" width="200">
+                        <h3> You haven’t launched any products </h3>
+                         <P>
+                          Your  product will show up here, once you launch <br> something today
+                         </P>
+                         <button type="button" class="btn btn-primary custbtn rm-marg custbtnO custbtn2" data-toggle="modal" data-target="#launchModal">Launch a product</button>
+                        
                     </div>
                   </div>
                 </div>
@@ -926,14 +979,48 @@
               
              </div>
             </div>
+
+            <div class="tab-pane" id="tabs-3s" role="tabpanel">
+              <div class=" mb-3">
+                <div class="row">
+                   <div class="col-sm-12"> 
+                     <img src="../assets/img/banner-2.png" width="100%">
+                </div>
+                </div>
+              </div> 
+              <div class="row">
+                <div class="col-sm-3">
+                 <a href="#" data-toggle="modal" data-target="#launchPayment"> <img src="../assets/img/xp-card-1.png" width="100%"> </a>
+                </div>
+
+                <div class="col-sm-3">
+                  <img src="../assets/img/xp-card-2.png" width="100%">
+                </div>
+
+                <div class="col-sm-3">
+                  <img src="../assets/img/xp-card-3.png" width="100%">
+                </div>
+
+                <div class="col-sm-3">
+                  <img src="../assets/img/xp-card-4.png" width="100%">
+                </div>
+            
+              
+             </div>
+            </div>
+
           </div>
           <!-- New Cards End-->
 
           <!-- Card stats -->
          
+          
+
         </div>
       </div>
     </div>
+
+   
 
     <div class="container-fluid mt--6" style="display: none;">
         <div class="">
@@ -966,6 +1053,9 @@
    
   </div>
   <!-- Argon Scripts -->
+
+  
+
   <!-- Core -->
   <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
   <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -986,14 +1076,11 @@
     </script>
   <script>
     $(document).ready(function () {
-    $(".n1").click(function () {
-        $(".cBGs").hide();
-        $(".gBGs").show();
+    $("#bCont2").click(function () {
+        $("#launchM").hide();
+        $("#launchDone").show();
     });
-    $(".n2").click(function () {
-      $(".gBGs").hide();
-        $(".cBGs").show();
-    });
+   
 });
   </script>
   <script>
@@ -1001,7 +1088,68 @@
     e.stopPropagation();
 });
   </script>
+<script>
+  jQuery(document).ready(function () {
+  ImgUpload();
+});
 
+function ImgUpload() {
+  var imgWrap = "";
+  var imgArray = [];
+
+  $('.upload__inputfile').each(function () {
+    $(this).on('change', function (e) {
+      imgWrap = $(this).closest('.upload__box').find('.upload__img-wrap');
+      var maxLength = $(this).attr('data-max_length');
+
+      var files = e.target.files;
+      var filesArr = Array.prototype.slice.call(files);
+      var iterator = 0;
+      filesArr.forEach(function (f, index) {
+
+        if (!f.type.match('image.*')) {
+          return;
+        }
+
+        if (imgArray.length > maxLength) {
+          return false
+        } else {
+          var len = 0;
+          for (var i = 0; i < imgArray.length; i++) {
+            if (imgArray[i] !== undefined) {
+              len++;
+            }
+          }
+          if (len > maxLength) {
+            return false;
+          } else {
+            imgArray.push(f);
+
+            var reader = new FileReader();
+            reader.onload = function (e) {
+              var html = "<div class='upload__img-box'><div style='background-image: url(" + e.target.result + ")' data-number='" + $(".upload__img-close").length + "' data-file='" + f.name + "' class='img-bg'><div class='upload__img-close'></div></div></div>";
+              imgWrap.append(html);
+              iterator++;
+            }
+            reader.readAsDataURL(f);
+          }
+        }
+      });
+    });
+  });
+
+  $('body').on('click', ".upload__img-close", function (e) {
+    var file = $(this).parent().data("file");
+    for (var i = 0; i < imgArray.length; i++) {
+      if (imgArray[i].name === file) {
+        imgArray.splice(i, 1);
+        break;
+      }
+    }
+    $(this).parent().parent().remove();
+  });
+}
+</script>
 
 </body>
 

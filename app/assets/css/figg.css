@@ -21723,8 +21723,8 @@ textarea[resize='horizontal']
 
     border-radius: .375rem; 
     background: #FFF8F4;
-    color: #FF7C24;
-    border-right: 4px solid #FF7C24;
+    color: #FF4424;
+    border-right: 4px solid #FF4424;
     font-weight: bold;
 }
 .navbar-vertical.navbar-expand-xs .lavalamp-object
@@ -23079,7 +23079,7 @@ textarea[resize='horizontal']
 .page-item.active .page-link
 {
     box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
-    background: #FF7C24;
+    background: #FF4424;
 }
 
 .page-item .page-link,
@@ -30001,7 +30001,7 @@ input.datetimepicker[data-color='yellow'] + .bootstrap-datetimepicker-widget.dro
     width: 11px;
     height: 11px;
     border-radius: 50%;
-    background: #FF7C24;
+    background: #FF4424;
     border: 3px solid #FFF;
     position: absolute;
     top: 1px;
@@ -30034,7 +30034,7 @@ input.datetimepicker[data-color='yellow'] + .bootstrap-datetimepicker-widget.dro
       color: #303030;
   }
   .ptxt h4 span{
-      color: #FF7C24;
+      color: #FF4424;
   }
   .bread-nostyle {
     display: flex;
@@ -30051,7 +30051,7 @@ input.datetimepicker[data-color='yellow'] + .bootstrap-datetimepicker-widget.dro
   }
   .btnColor{
       background: #F9ECE3;
-      color: #FF7C24;
+      color: #FF4424;
       box-shadow: none !important;
       border: none !important;
   }
@@ -30081,7 +30081,7 @@ input.datetimepicker[data-color='yellow'] + .bootstrap-datetimepicker-widget.dro
     margin-bottom: 5px !important;
 }
 .custbtn{
-    background: #FF7C24;
+    background: #FF4424;
     height: 50px;
     font-weight: 300;
     font-size: 17px;
@@ -30145,7 +30145,7 @@ input.datetimepicker[data-color='yellow'] + .bootstrap-datetimepicker-widget.dro
     color: #38063C;
 }
 a {
-    color: #FF7C24;
+    color: #FF4424;
 }
 .card1{
     background:  none;
@@ -30168,7 +30168,7 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     text-transform: none;
-    color: #FF7C24;
+    color: #FF4424;
 }
 .cusBadge3{
     background: #f5f5f6 !important;
@@ -30176,7 +30176,7 @@ a {
 .tbadge{
     font-size: 13px !important;
     background:#FFF2E9 !important;
-    color: #FF7C24 !important;
+    color: #FF4424 !important;
     text-transform: none;
     padding: 10px 15px;
 }
@@ -30198,7 +30198,7 @@ img{
     max-width: 250px !important;
 }
 .tst strong{
-    color: #FF7C24;
+    color: #FF4424;
 }
 .tst .table td, .tst .table th{
     padding-left: 0px !important;
@@ -30230,7 +30230,7 @@ tr.hide-table-padding td {
       width: 100%;
   }
   a:hover{
-      color: #FF7C24;
+      color: #FF4424;
   }
   .nav-tabs .nsl.active, .nav-tabs .nav-item.show .nsl {
     color: #525f7f;
@@ -30299,16 +30299,16 @@ tr.hide-table-padding td {
 .lst a{
     display: block;
     width: auto;
-    border: 1px solid #FF7C24;
+    border: 1px solid #FF4424;
     padding: 10px 15px;
     border-radius: 30px;
     color: #000;
 }
 .lst a i{
-    /*color: #FF7C24; */
+    /*color: #FF4424; */
 }
 .active, .lst a:hover {
-    color: #FF7C24;
+    color: #FF4424;
   }
   .no-pad{
     padding: 0px;
@@ -30379,11 +30379,11 @@ tr.hide-table-padding td {
 .tpb{
     width: auto;
     padding: 10px 15px;
-    background: #FF7C24;
+    background: #FF4424;
     color: #FFF;
     border-radius: 30px;
     border: none;
-    border: 1px solid #FF7C24;
+    border: 1px solid #FF4424;
 }
 .tpb:hover{
     color: #FFF;
@@ -30431,7 +30431,7 @@ tr.hide-table-padding td {
     padding: 10px;
     font-size: 20px;
     text-align: center;
-    background: #FF7C24;
+    background: #FF4424;
     color: #FFF;
     position: absolute;
     left: 20px;
@@ -30534,11 +30534,11 @@ tr.hide-table-padding td {
     transition: all 0.3s ease;
     cursor: pointer;
     border: 2px solid;
-    border-color: #FF7C24;
+    border-color: #FF4424;
     font-size: 14px;
 
     padding: 10px 15px;
-    color: #FF7C24;
+    color: #FF4424;
     border-radius: 30px;
   }
   .upload__btn:hover {
@@ -30611,7 +30611,7 @@ tr.hide-table-padding td {
     cursor: pointer;
     font-weight: normal;
     transition: all 0.2s ease-in-out;
-    background:  #FF7C24;
+    background:  #FF4424;
     text-align: center;
     padding-top: 3px;
     
@@ -30706,7 +30706,7 @@ tr.hide-table-padding td {
   }
   .copyl {
     width: auto;
-    background: #FF7C24;
+    background: #FF4424;
     color: #FFF;
     border-radius: 10px;
     border: none;
@@ -30724,7 +30724,7 @@ tr.hide-table-padding td {
     margin-bottom: 15px;
 }
 .crds-3{
-    background: #FF7C240D;
+    background: #FF44240D;
     border-radius: 15px;
     padding: 15px;
     margin-bottom: 15px;
@@ -30749,7 +30749,7 @@ tr.hide-table-padding td {
     font-size: 14px;
 }
 .nobgHead tr th a{
-    color: #FF7C24 !important;
+    color: #FF4424 !important;
 }
 .tagsR{
     display: inline-block;
@@ -30772,7 +30772,7 @@ tr.hide-table-padding td {
     padding-right: 10px;
 }
 .cusTabs li a.nav-link.active{
-    background: #FF7C240D;
+    background: #FF44240D;
     border-radius: 20px;
     color: #303030 !important;
     padding-left: 10px;
@@ -30832,7 +30832,7 @@ tr.hide-table-padding td {
     color: #303030;
 }
 .tgs2{
-    background: #FF7C240D;
+    background: #FF44240D;
     color: #303030;
 }
 .nowhitebg{
@@ -30896,7 +30896,7 @@ input[type="checkbox"] {
     margin-bottom: 20px;
 }  
 .lbs{
-    background: #FF7C240D;
+    background: #FF44240D;
     padding: 20px;
     border: 1px solid #f0e0d4;
     border-radius: 15px;
@@ -30908,7 +30908,7 @@ input[type="checkbox"] {
     
 }
 .rsv a h4{
-    color: #FF7C24 !important;
+    color: #FF4424 !important;
 }
 .mHead{
     font-size: 16px;
@@ -30939,7 +30939,7 @@ input[type="checkbox"] {
 .bigtext textarea{
     resize: none;
     height: 100px;
-    background: #FF7C240D;
+    background: #FF44240D;
     border: 1px solid #f0e0d4;
     position: relative;
     width: 100%;
@@ -30956,7 +30956,7 @@ input[type="checkbox"] {
     border-radius: 50%;
     padding: 3px;
     text-align: center;
-    background: #FF7C24;
+    background: #FF4424;
     border: none;
     font-size: 20px;
     color: #FFF;
@@ -31143,7 +31143,7 @@ a.slink{
     margin-left: 10px;
   }
   .cBGs{
-    background: #FF7C240D;
+    background: #FF44240D;
     min-width: 100px;
     padding: 10px;
     float: right;
@@ -31209,7 +31209,7 @@ a.slink{
     margin-top: -5px;
   }
   .chover:hover{
-    background: #FF7C240D;
+    background: #FF44240D;
     display: block;
     border-radius: 20px;
   }
@@ -31234,7 +31234,7 @@ a.slink{
     cursor: pointer;
   }
   .pts tr:hover{
-    background:  #FF7C240D;
+    background:  #FF44240D;
   }
   .onact{
     display: none;
@@ -31308,7 +31308,7 @@ a.slink{
   
   }
   .box-txt-2 h5{
-    color: #FF7C24;
+    color: #FF4424;
     
   }
   .ptxt h4{
@@ -31319,13 +31319,13 @@ a.slink{
     color: #303030;
   }
   .ptxt h4 span{
-    color: #FF7C24;
+    color: #FF4424;
   }
   .cpr{
     height: 8px !important;
   }
   .inBox{
-    background: #FF7C24;
+    background: #FF4424;
     padding: 30px;
     margin-bottom: 20px;
     border-radius: 15px;
@@ -31440,6 +31440,113 @@ a.slink{
 .cms2{
     color:#FF4424;
 }
+.centerDiv{
+    max-width: 400px;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+}
+.centerDiv p{
+    color: #1E1E1E80;
+}
+.custbtn2{
+    width: 220px;
+}
+.emptyLab{
+    background: #FF573A0D;
+    padding: 20px;
+    border-radius: 15px;
+    color: #30303066;
+}
+.upload__box {
+    padding: 0px;
+  }
+  .upload__inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  .upload__btn {
+    display: block;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px dashed;
+    width: 100%;
+    border-color: #FF4424;
+    background:#FF573A0D;
+    border-radius: 10px;
+    line-height: 26px;
+    font-size: 14px;
+    height: 150px;
+    vertical-align: middle;
+  }
+  .upload__btn:hover {
+    background-color: unset;
+    color: #4045ba;
+    transition: all 0.3s ease;
+  }
+  .upload__btn-box {
+    margin-bottom: 10px;
+  }
+  .upload__img-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
+  .upload__img-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background: #FF44240D;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 12px;
+    margin-right: 8px;
+  }
+  .upload__img-close {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+    line-height: 24px;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .upload__img-close:after {
+    content: "✖";
+    font-size: 14px;
+    color: white;
+  }
+  
+  .img-bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 100%;
+  }
+  .upload__btn h2{
+    color: #FF4424;
+  }
+  .upload__btn h4{
+    color: #10162680;
+  }
+  .stxt{
+    color: #FF4424;
+    text-align: center;
+    padding: 10px;
+  }
 @media (max-width: 1200px) {
     .d-non{
         display: none;
