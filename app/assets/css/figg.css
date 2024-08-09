@@ -30430,12 +30430,9 @@ tr.hide-table-padding td {
     border-radius: 50%;
     padding: 10px;
     font-size: 20px;
-    text-align: center;
-    background: #FF4424;
-    color: #FFF;
     position: absolute;
     left: 20px;
-    top: 20px;
+    top: 5px;
 }
 .cmbtn{
     padding: 10px 15px;
@@ -30452,13 +30449,16 @@ tr.hide-table-padding td {
     
 }
 .cmbtn2{
-    padding: 10px 15px;
-    border: 1px solid #CCC;
+    padding: 20px 15px;
+    border: 1px solid #FF4424;
     color: #000;
-    border-radius: 30px;
+    border-radius: 20px;
     background-color: #FFF;
     display: block;
     text-align: center;
+    width: 250px;
+    margin: auto;
+    color: #FF4424;
     
 }
 .cpad2{
@@ -31560,6 +31560,72 @@ a.slink{
     top: 40px;
     text-align: right;
   }
+  .sm-date{
+    color: #9A9999;
+    font-size: 14px;
+  }
+  .ltxt{
+    color: #9A9999;
+    font-size: 14px;
+  }
+  .lxt-2{
+    color: #9A9999;
+  }
+  .brdr{
+    border-right: 1px solid #3030301A;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .brdr h2{
+    margin: 0px;
+    padding: 0px;
+  }
+  .brdr span{
+    color: #9A9999;
+  }
+  .border-n{
+    border: none !important;
+  }
+  .tpa2 {
+    width: auto;
+    padding: 5px 15px;
+    border: 1px solid #FF4424;
+    color: #000;
+    border-radius: 30px;
+    color: #FF4424 !important;
+    box-shadow: none !important;
+}
+.clink{
+    color: #9A9999 !important;
+}
+.cmbtn4{
+   
+    text-align: center;
+    right: 20px;
+    bottom: 20px;
+    position: absolute;
+    width: 40px;   
+}
+.pCard{
+    background: #FFF;
+    border-radius: 10px;
+    border: 1px solid #2D2C2C1A;
+    text-align: left;
+}
+.pTop{
+    padding: 15px;
+    display: block;
+    border-bottom: 1px solid #2D2C2C1A;
+}
+.pbtm{
+    padding: 15px;
+    display: block;
+}
+.cCopy{
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
 @media (max-width: 1200px) {
     .d-non{
         display: none;
